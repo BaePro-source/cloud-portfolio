@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: BaePro Portfolio # Website name
-baseURL: 'https://baepro-source.github.io/BaePro-Portfolio/' # Website URL
+baseURL: 'https://baepro-source.github.io/' # Website URL
 
 
 ############################
