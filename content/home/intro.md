@@ -1,6 +1,6 @@
 ---
 # Use the Intro widget of the Blog template
-widget: about.avatar
+widget: about
 
 # This file represents a page section.
 headless: true
@@ -8,7 +8,7 @@ headless: true
 # Order that this section will appear in.
 weight: 10
 design:
-    show_social:true
+    show_social: true
 
 author: admin
 #design:

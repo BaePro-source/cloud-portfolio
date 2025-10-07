@@ -46,7 +46,7 @@ show_social: true
 social:
   - icon: gmail
     icon_pack: custom
-    link: "mailto:0701bjh@gmail.com" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:0701bjh@gmail.com" 
   - icon: kakaotalk
     icon_pack: custom
     link: "/media/KakaoTalk_myprofile.jpg"
