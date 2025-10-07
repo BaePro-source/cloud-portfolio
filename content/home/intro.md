@@ -7,6 +7,8 @@ headless: true
 
 # Order that this section will appear in.
 weight: 10
+design:
+    show_social:true
 
 author: admin
 #design:

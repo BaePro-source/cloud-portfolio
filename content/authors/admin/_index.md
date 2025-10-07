@@ -6,7 +6,7 @@ title: 배재훈
 superuser: true
 
 # Role/position
-role: ''
+role: '전북대학교 3학년 재학중'
 
 # Status emoji
 status:
