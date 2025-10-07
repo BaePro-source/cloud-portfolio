@@ -44,10 +44,10 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: gmail
     icon_pack: custom
-    link: 'about/#0701bjh@gmail.com' # For a direct email link, use "mailto:test@example.org".
+    link: 'Bae_Pro : 0701bjh@gmail.com' # For a direct email link, use "mailto:test@example.org".
   - icon: kakaotalk
-    icon_pack: fab
-    link: /media/KakaoTalk_myprofile
+    icon_pack: custom
+    link: /media/KakaoTalk_myprofile.jpg
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/mividaa_b/
