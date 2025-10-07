@@ -6,7 +6,7 @@ title: 배재훈
 superuser: true
 
 # Role/position
-role: ''
+role: 전북대학교 산업정보시스템공학과
 
 # Status emoji
 status:
@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 프로그래밍 개발과 클라우드 컴퓨팅에 관심이 있습니다.
 
 #interests:
 #- Artificial Intelligence
