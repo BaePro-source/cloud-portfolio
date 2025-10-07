@@ -44,11 +44,11 @@ bio: My research interests include distributed robotics, mobile computing and pr
 show_social: true
 
 social:
-  - icon: gmail
-    icon_pack: custom
+  - icon: envelope
+    icon_pack: fas
     link: "mailto:0701bjh@gmail.com" 
-  - icon: kakaotalk
-    icon_pack: custom
+  - icon: comments
+    icon_pack: fas
     link: "/media/KakaoTalk_myprofile.jpg"
   - icon: instagram
     icon_pack: fab
