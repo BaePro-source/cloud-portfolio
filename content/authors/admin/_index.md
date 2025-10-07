@@ -46,7 +46,8 @@ show_social: true
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:0701bjh@gmail.com" 
+    link: "mailto:your_mail@example.com?subject=문의드립니다&body=안녕하세요%0A포트폴리오를 보고 연락드립니다."
+
   - icon: comments
     icon_pack: fas
     link: "/media/KakaoTalk_myprofile.jpg"
@@ -56,7 +57,7 @@ social:
 # Uncomment below for Github link
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/BaePro-source/BaePro-source.github.io
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
