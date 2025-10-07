@@ -50,7 +50,7 @@ social:
 
   - icon: comments
     icon_pack: fas
-    link: "/media/KakaoTalk_myprofile.jpg"
+    link: "/KakaoTalk_myprofile.jpg"
   - icon: instagram
     icon_pack: fab
     link: "https://www.instagram.com/mividaa_b/"
