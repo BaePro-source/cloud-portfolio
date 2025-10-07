@@ -41,6 +41,8 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+show_social: true
+
 social:
   - icon: gmail
     icon_pack: custom
@@ -52,9 +54,9 @@ social:
     icon_pack: fab
     link: "https://www.instagram.com/mividaa_b/"
 # Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
