@@ -42,12 +42,12 @@ bio: My research interests include distributed robotics, mobile computing and pr
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
+  - icon: gmail
+    icon_pack: custom
     link: 'about/#0701bjh@gmail.com' # For a direct email link, use "mailto:test@example.org".
   - icon: kakaotalk
     icon_pack: fab
-    link: https://twitter.com/wowchemy
+    link: /media/KakaoTalk_myprofile
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/mividaa_b/
