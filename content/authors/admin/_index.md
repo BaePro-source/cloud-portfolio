@@ -44,10 +44,6 @@ bio: My research interests include distributed robotics, mobile computing and pr
 show_social: true
 
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:your_mail@example.com?subject=문의드립니다&body=안녕하세요%0A포트폴리오를 보고 연락드립니다."
-
   - icon: comments
     icon_pack: fas
     link: "/KakaoTalk_myprofile.jpg"
