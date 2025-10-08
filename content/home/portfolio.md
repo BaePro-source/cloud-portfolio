@@ -28,12 +28,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: Data Analysis wihte 'R'
+      tag: DA
+    - name: Data Structures with 'C'
+      tag: DS
 
 design:
   columns: '1'
