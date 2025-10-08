@@ -1,8 +1,8 @@
 ---
-title: Recommendation Systems
-summary: Write about your project here...
+title: Data Structures Problem
+summary: Solving problems using data structures
 tags:
-  - ML
-date: 2022-01-01
+  - DS
+date: 2024-10-25
 external_link: http://github.com
 ---
