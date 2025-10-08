@@ -21,6 +21,6 @@ author: admin
 ---
 
 👋 안녕하세요 저는 배재훈입니다! 저는 대한민국에 있는 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부 3학년에 재학중인 학생입니다!
-{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+{style="font-size: 1.2rem; background: #78e757ff; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
 Check out my [resumé](/about/) and portfolio below 😍

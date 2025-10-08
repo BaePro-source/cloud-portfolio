@@ -1,5 +1,5 @@
 ---
-title: Data Structures Problem
+title: Data Structures Problems
 summary: Solving problems using data structures
 tags:
   - DS

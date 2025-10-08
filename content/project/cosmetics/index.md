@@ -1,6 +1,6 @@
 ---
-title: Cosmetics Semantic Search
-summary: Write about your project here...
+title: Data Structures Problems
+summary: Solving problems using data structures
 tags:
   - NLP
 date: 2022-01-01
