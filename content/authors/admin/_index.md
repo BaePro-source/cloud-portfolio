@@ -10,7 +10,7 @@ role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학�
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☁️
 
 # Organizations/Affiliations
 #organizations:
