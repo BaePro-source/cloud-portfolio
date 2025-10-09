@@ -65,7 +65,7 @@ social:
 #email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+배재훈은 대한민국 전주시에 위치해 있는 전북대학교에서 산업정보시스템공학과 전공과 복수전공으로 컴퓨터인공지능학부에 재학중입니다. 그는 클라우드 컴퓨팅 분야쪽으로 공부중입니다. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
