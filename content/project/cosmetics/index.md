@@ -5,5 +5,8 @@ tags:
   - NLP
 date: 2022-01-01
 external_link: http://github.com
-featured_image: data-structure.png
+image:
+  filename: "data-sturcture.png"
+  focal_poing: "Center"
+  preview_only: false
 ---
