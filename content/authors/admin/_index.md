@@ -6,7 +6,7 @@ title: 배재훈
 superuser: true
 
 # Role/position
-role: 전북대학교 산업정보시스템공학과
+role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
 
 # Status emoji
 status:
