@@ -28,7 +28,7 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Data Analysis wihte 'R'
+    - name: Data Analysis with 'R'
       tag: DA
     - name: Data Structures with 'C'
       tag: DS
