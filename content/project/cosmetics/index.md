@@ -6,7 +6,7 @@ tags:
 date: 2022-01-01
 external_link: http://github.com
 image:
-  filename: "data-sturcture.png"
+  filename: "data-structure.png"
   focal_poing: "Center"
   preview_only: false
 ---
