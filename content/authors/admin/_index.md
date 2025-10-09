@@ -65,8 +65,12 @@ social:
 #email: ""
 ---
 
-배재훈은 대한민국 전주시에 위치해 있는 전북대학교에서 산업정보시스템공학과 전공과 복수전공으로 컴퓨터인공지능학부에 재학중입니다. 그는 클라우드 컴퓨팅 분야쪽으로 공부중입니다. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+배재훈은 대한민국 전주시에 위치해 있는 전북대학교에서 산업정보시스템공학과 전공과 복수전공으로 컴퓨터인공지능학부에 재학중입니다. 그는 클라우드 컴퓨팅, 시스템 성능 최적화, 인프라 자동화 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 좋아합니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+비록 아직 대규모 프로젝트 경험은 없지만,
+AWS와 Docker 등 클라우드 환경에서의 실습을 통해
+효율적인 시스템 운영과 관리 역량을 쌓아가고 있습니다.
+앞으로는 데이터 중심의 클라우드 아키텍처 설계와 DevOps 분야로
+전문성을 확장해 나가는 것이 목표입니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
