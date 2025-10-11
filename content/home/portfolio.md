@@ -32,6 +32,8 @@ content:
       tag: DA
     - name: Data Structures with 'C'
       tag: DS
+    - name: Database Project with 'SQL'
+      tag: DB
 
 design:
   columns: '1'
