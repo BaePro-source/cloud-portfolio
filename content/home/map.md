@@ -11,7 +11,7 @@ design:
 
 <div style="border-radius:16px; overflow:hidden">
   <iframe
-    src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE" 
+    src="https://maps.app.goo.gl/Hv8gEtskESJLNvDV9" 
     width="100%"
     height="380"
     style="border:0;"
