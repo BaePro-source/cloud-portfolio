@@ -88,7 +88,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: ''
+    provider: wowchemy  # 이 부분을 ''에서 wowchemy로 변경
     algolia:
       app_id: ''
       api_key: ''
