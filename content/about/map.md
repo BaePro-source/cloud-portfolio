@@ -1,8 +1,8 @@
 ---
 widget: blank
 headless: true
-weight: 15 
-title: "오시는 길"
+weight: 60 
+title: 
 design:
   spacing:
     padding: ["0", "0", "0", "0"]

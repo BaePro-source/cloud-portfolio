@@ -14,11 +14,11 @@ subtitle:
 content:
   # Automatically link email and phone or display as text?
   email: cloudjaehun@gmail.com
-  phone: 010-6689-5928
+  phone: +82-10-6689-5928
   address:
     stree: 삼송3길 11 갤럭시하우스 103호
-    city: 전주시
     region: 전라북도
+    city: 전주시 전북대학교 공과대학 6호관
     country: 대한민국
     office_hours:
       - '연중무휴'
@@ -36,3 +36,5 @@ content:
 design:
   columns: '1'
 ---
+
+<br> <span style="font-size:95%">클라우드 컴퓨팅 혹은 클라우드 개발자 관련해 관심 있으시면 아래로 연락주시면 감사드리겠습니다</span> <br>
