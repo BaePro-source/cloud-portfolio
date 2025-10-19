@@ -20,5 +20,5 @@ title: 안녕하세요!
 author: admin
 design:
   colums: '2'
-  css_class: 'col-lg-2'
+  css_class: 'col-lg-6'
 ---
