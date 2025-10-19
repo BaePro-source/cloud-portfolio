@@ -19,6 +19,6 @@ title: 안녕하세요!
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 design:
-  colums: '3'
+  colums: '2'
   css_class: 'col-lg-6'
 ---
