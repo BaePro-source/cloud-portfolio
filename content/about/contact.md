@@ -26,7 +26,7 @@ content:
 
 design:
   columns: '2'
-  css_class: 'col-rg-6'
+  css_class: 'col-rg-8'
 ---
 
 <br> <span style="font-size:95%">클라우드 컴퓨팅 혹은 클라우드 개발자 관련해 관심 있으시면 아래로 연락주시면 감사드리겠습니다</span> <br>
