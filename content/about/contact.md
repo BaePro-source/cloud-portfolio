@@ -25,7 +25,7 @@ content:
   autolink: true
 
 design:
-  columns: '2'
+  columns: '3'
   css_clss: 'col-lg-6'
 ---
 
