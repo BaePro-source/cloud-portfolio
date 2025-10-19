@@ -1,7 +1,7 @@
 ---
 widget: blank
 headless: true
-weight: 50 
+weight: 15 
 title: "오시는 길"
 design:
   spacing:

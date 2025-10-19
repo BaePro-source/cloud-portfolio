@@ -11,16 +11,17 @@ weight: 50
 
 title: Contact
 subtitle: 
-sections:
-  - block: contact
-    content:
-      title: Contact
-      text: |-
-        <br> <span style="font-size:95%">클라우드 컴퓨팅 혹은 클라우드 개발자 관련해 관심 있으시면 아래로 연락주시면 감사드리겠습니다</span> <br>
-      email: cloudjaehun@gmail.com
-      phone: +82-10-6689-5928
 content:
   # Automatically link email and phone or display as text?
+  email: cloudjaehun@gmail.com
+  phone: 010-6689-5928
+  address:
+    stree: 삼송3길 11 갤럭시하우스 103호
+    city: 전주시
+    region: 전라북도
+    country: 대한민국
+    office_hours:
+      - '연중무휴'
   autolink: true
 
   # Email form provider
