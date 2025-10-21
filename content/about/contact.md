@@ -8,6 +8,8 @@ headless: true
 
 # Order that this section appears on the page.
 weight: 10
+full widget: false
+wide: false
 
 title: 
 subtitle: 
