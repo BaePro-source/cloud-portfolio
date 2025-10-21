@@ -1,0 +1,24 @@
+---
+widget: portfolio
+headless: true
+weight: 17
+
+title: '핵심 역량'
+subtitle: '클라우드 컴퓨팅 전문 분야'
+
+content:
+  page_type: skill
+  filter_default: 0
+  filter_button:
+    - name: All
+      tag: '*'
+    - name: Cloud
+      tag: cloud
+    - name: DevOps
+      tag: devops
+
+design:
+  columns: '2'
+  view: card
+  flip_alt_rows: false
+---
