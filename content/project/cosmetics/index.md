@@ -1,6 +1,6 @@
 ---
-title: Data Structures Problems
-summary: Solving problems using data structures
+title: 자료구조 실습
+summary: 자료구조 실습파일
 tags:
   - DS
 date: 2022-01-01

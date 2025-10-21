@@ -1,6 +1,6 @@
 ---
-title: Database Project "HEARTRITHM"
-summary: Database project
+title: "HEARTRITHM"
+summary: 데이터베이스 프로젝트
 tags:
   - DB
 date: 2025-06-23

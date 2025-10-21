@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
+    - name: 모두
       tag: '*'
-    - name: Data Analysis with 'R'
+    - name: "'R'을 이용한 데이터 분석 프로젝트"
       tag: DA
-    - name: Data Structures with 'C'
+    - name: "'C'를 이용한 자료구조"
       tag: DS
-    - name: Database Project with 'SQL'
+    - name: "'SQL'을 이용한 데이터베이스 프로젝트"
       tag: DB
 
 design:
