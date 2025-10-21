@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 5 
+weight: 10 
 
 title: 안녕하세요!
 
@@ -19,6 +19,6 @@ title: 안녕하세요!
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 design:
-  colums: '2'
+  columns: '2'
   css_class: 'col-lg-6'
 ---
