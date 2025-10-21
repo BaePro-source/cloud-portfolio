@@ -80,4 +80,4 @@ AWS와 Docker 등 클라우드 환경에서의 실습을 통해
 앞으로는 데이터 중심의 클라우드 아키텍처 설계와 DevOps 분야로
 전문성을 확장해 나가는 것이 목표입니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="다운로드" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} 배재훈 이력서.
