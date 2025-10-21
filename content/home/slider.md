@@ -1,7 +1,7 @@
 ---
 widget: slider
 headless: true
-weight: 15
+weight: 10
 
 design:
   slide_height: '500px'
