@@ -57,6 +57,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
+  - icon: graduation-cap
+    icon_pack: fas
+    link: https://ise.jbnu.ac.kr/ise/index.do
 
 
 # Link to a PDF of your resume/CV from the About widget.

@@ -7,9 +7,9 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Portfolio
+  - name: Introducetion
     url: about/
     weight: 20
-  - name: search
+  - name: Search
     url: /search/
     weight: 30

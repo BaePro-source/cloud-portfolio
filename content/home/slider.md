@@ -21,7 +21,7 @@ content:
         image:
           filename: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80'
           filters:
-            brightness: 0.5
+            brightness: 1
         position: center
         color: '#000'
       link:
@@ -37,7 +37,7 @@ content:
         image:
           filename: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80'
           filters:
-            brightness: 0.5
+            brightness: 1
         position: center
         color: '#111'
       link:
