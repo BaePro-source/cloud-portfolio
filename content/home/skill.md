@@ -1,7 +1,7 @@
 ---
 widget: portfolio
 headless: true
-weight: 17
+weight: 28
 
 title: '핵심 역량'
 subtitle: '클라우드 컴퓨팅 전문 분야'
