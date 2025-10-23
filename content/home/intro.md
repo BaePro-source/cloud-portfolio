@@ -6,7 +6,7 @@ widget: about.avatar
 headless: true
 
 # Order that this section will appear in.
-weight: 15
+weight: 10
 design:
     show_social: true
 
