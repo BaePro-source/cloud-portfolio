@@ -16,8 +16,8 @@ content:
       tag: cloud
     - name: DevOps
       tag: devops
-    - name: Code
-      tag: code
+    - name: Programming
+      tag: programming
 design:
   columns: '2'
   view: card

@@ -2,7 +2,7 @@
 title: Database (SQL)
 summary: 데이터베이스 설계와 SQL을 활용한 데이터 관리
 tags:
-  - database
+  - cloud
   - sql
 date: '2024-01-09T00:00:00Z'
 
@@ -11,7 +11,7 @@ image:
   preview_only: false
 
 links:
-  - icon: cloud
+  - icon: database
     icon_pack: fas
     name: Learn More
     url: https://www.mysql.com/

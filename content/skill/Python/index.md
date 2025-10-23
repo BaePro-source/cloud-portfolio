@@ -11,7 +11,7 @@ image:
   preview_only: false
 
 links:
-  - icon: code
+  - icon: python
     icon_pack: fab
     name: Learn More
     url: https://www.python.org/

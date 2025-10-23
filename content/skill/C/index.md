@@ -11,7 +11,7 @@ image:
   preview_only: false
 
 links:
-  - icon: code
+  - icon: c
     icon_pack: fas
     name: Learn More
     url: https://en.cppreference.com/w/c
