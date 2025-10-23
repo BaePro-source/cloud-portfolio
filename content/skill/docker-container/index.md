@@ -13,7 +13,7 @@ image:
   filename: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&q=80'
 
 links:
-  - icon: docker
+  - icon: cloud
     icon_pack: fab
     name: Learn More
     url: https://www.docker.com/

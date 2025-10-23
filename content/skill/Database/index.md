@@ -11,7 +11,7 @@ image:
   preview_only: false
 
 links:
-  - icon: database
+  - icon: cloud
     icon_pack: fas
     name: Learn More
     url: https://www.mysql.com/
