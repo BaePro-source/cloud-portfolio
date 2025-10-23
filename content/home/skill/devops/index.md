@@ -4,7 +4,7 @@ summary: CI/CD 파이프라인 구축과 인프라 자동화를 통한 효율적
 tags:
   - devops
   - automation
-date: '2024-01-03T00:00:00Z'
+date: '2024-01-07T00:00:00Z'
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/person-using-macbook-pro-on-person-s-lap-npxXWgQ33ZQ)'

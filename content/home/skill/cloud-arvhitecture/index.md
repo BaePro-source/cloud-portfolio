@@ -4,7 +4,7 @@ summary: 확장 가능하고 안정적인 클라우드 기반 시스템 설계 �
 tags:
   - cloud
   - architecture
-date: '2024-01-04T00:00:00Z'
+date: '2024-01-06T00:00:00Z'
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-QckxruozjRg)'

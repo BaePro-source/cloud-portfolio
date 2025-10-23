@@ -4,7 +4,7 @@ summary: Docker를 활용한 컨테이너화 및 마이크로서비스 아키텍
 tags:
   - devops
   - docker
-date: '2024-01-02T00:00:00Z'
+date: '2024-01-08T00:00:00Z'
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-OqtafYT5kTw)'
