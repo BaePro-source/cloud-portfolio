@@ -31,7 +31,7 @@ main:
     weight: 52
     parent: portfolio
   - name: 연락처
-    url: /contact/
+    url: about/
     weight: 60
   - name: 검색
     url: /search/
