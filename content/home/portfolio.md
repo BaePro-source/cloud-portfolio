@@ -8,10 +8,10 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 25
+weight: 35
 
-title: ''
-subtitle: ''
+title: 프로젝트
+subtitle: 학교 프로젝트 & 개인 프로젝트
 
 content:
   # Page type to display. E.g. project.
