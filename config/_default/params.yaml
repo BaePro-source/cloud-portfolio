@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
+    org_name: '전북대학교'
+    description: '배재훈 - 클라우드 컴퓨팅과 DevOps에 관심있는 전북대학교 학생'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -40,10 +40,13 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+logo:
+  text: "배재훈"
+  filename: "logo.png"
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} 배재훈. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -53,7 +56,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2025년 10월 10일'
   time_format: '3:04 PM'
 
 # Site features
@@ -64,12 +67,14 @@ features:
     extra_languages:
       - r
       - latex
+      - python
+      - c
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/BaePro-source/BaePro-source.github.io.git'
     content_dir: content
     branch: main
   avatar:
