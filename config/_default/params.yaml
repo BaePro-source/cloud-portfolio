@@ -20,6 +20,7 @@ marketing:
     org_name: '전북대학교'
     description: '배재훈 - 클라우드 컴퓨팅과 DevOps에 관심있는 전북대학교 학생'
     twitter: 'GetResearchDev'
+    image: 'sharing.png'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -46,7 +47,7 @@ logo:
 
 footer:
   copyright:
-    notice: '© {year} 배재훈. This work is licensed under {license}'
+    notice: '© {year} 배재훈. All rights reserved.'
     license:
       enable: true
       allow_derivatives: false

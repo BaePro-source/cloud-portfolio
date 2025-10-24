@@ -8,6 +8,13 @@ superuser: true
 # Role/position
 role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
 
+# Featured image
+image:
+  caption: '클라우드 컴퓨팅 전문가'
+  focal_point: Smart
+  preview_only: false
+  filename: featured.jpg
+
 # Status emoji
 status:
   icon: ☁️
