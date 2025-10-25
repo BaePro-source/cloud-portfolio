@@ -3,8 +3,8 @@
   {{- if and .Title (not .Params.private) -}}
     {{- $permalink := .Permalink -}}
 
-    {{/* 'authors' 타입이고 프로필 폴더명이 'admin'인 경우 */}}
-    {{- if and (eq .Type "authors") (eq .File.ContentBaseName "admin") -}}
+    {{/* 제목이 '배재훈'인 페이지를 찾아서 링크를 변경 */}}
+    {{- if eq .Title "배재훈" -}}
       {{- $permalink = "about/" | relLangURL -}}
     {{- end -}}
 

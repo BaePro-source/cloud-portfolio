@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Background
+title: College
 subtitle:
 
 # Date format for experience
