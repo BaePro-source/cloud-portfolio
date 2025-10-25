@@ -80,27 +80,31 @@ function showSlide(n) {
 
 <style>
 /* 완전히 화면 전체 너비로 확장 */
-.home-section.fullwidth-slider {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100vw !important;
-  width: 100vw !important;
+body {
+  overflow-x: hidden;
 }
 
-.fullwidth-slider .container {
+.home-section.fullwidth-slider,
+section.fullwidth-slider {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.fullwidth-slider .container,
+.fullwidth-slider > div {
   max-width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
+  width: 100% !important;
 }
 
 .fullwidth-slider {
-  width: 100vw !important;
-  position: relative;
-  left: 50% !important;
-  right: 50% !important;
-  margin-left: -50vw !important;
-  margin-right: -50vw !important;
+  width: 100% !important;
+  margin: 0 !important;
   padding: 0 !important;
+  position: relative !important;
 }
 
 .slider-container {

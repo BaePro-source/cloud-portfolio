@@ -81,3 +81,40 @@
     color: #2196f3 !important;
   }
 }
+
+/* 스킬 카드 3x3 그리드 */
+.portfolio-container[data-view="card"] .row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
+}
+
+.portfolio-container[data-view="card"] .isotope-item {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+/* 카드 스타일 개선 */
+.portfolio-container .card {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.portfolio-container .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* 태블릿 (2열) */
+@media (max-width: 992px) {
+  .portfolio-container[data-view="card"] .row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* 모바일 (1열) */
+@media (max-width: 576px) {
+  .portfolio-container[data-view="card"] .row {
+    grid-template-columns: 1fr !important;
+  }
+}
