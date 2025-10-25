@@ -41,7 +41,7 @@ show_social: true
 social:
   - icon: comments
     icon_pack: fas
-    link: /KakaoTalk_myprofile.jpg
+    link: https://open.kakao.com/o/sg7E5XYh
     label: KakaoTalk ID
   - icon: instagram
     icon_pack: fab
