@@ -12,10 +12,10 @@ main:
     url: /about
     weight: 20
   - name: 프로젝트
-    url: /projects
+    url: /project
     weight: 30
   - name: 기술 스택
-    url: /skills
+    url: /skill
     weight: 40
   - name: 포트폴리오
     url: /portfolio
