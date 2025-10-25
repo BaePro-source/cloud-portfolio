@@ -25,7 +25,7 @@ experience:
   - title: 중학교 입학
     company: 각리중학교
     company_url: ''
-    company_logo: org-x
+    company_logo: gakri
     location: 충북 청주시 청원구 오창읍 오창중앙로 48
     date_start: '2014-03-02'
     date_end: '2015-03-01'
@@ -35,7 +35,7 @@ experience:
   - title: 중학교 전학
     company: 종촌중학교
     company_url: ''
-    company_logo: org-x
+    company_logo: jongchonm
     location: 세종특별자치시 도움1로 126
     date_start: '2015-03-02'
     date_end: '2017-02-10'
@@ -46,7 +46,7 @@ experience:
   - title: 고등학교 입학
     company: 종촌고등학교
     company_url: ''
-    company_logo: org-x
+    company_logo: jongchonh
     location: 세종특별자치시 달빛1로 60
     date_start: '2017-03-02'
     date_end: '2020-02-10'
