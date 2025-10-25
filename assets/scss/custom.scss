@@ -137,26 +137,26 @@ html .navbar-nav .nav-link,
   color: #333333 !important;
   position: relative;
   transition: color 0.3s ease;
-  
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: #2196f3;
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-  }
-  
-  &:hover {
-    color: #0D47A1 !important;
-  }
-  
-  &:hover::after {
-    width: 100%;
-  }
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #2196f3;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0D47A1 !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
 }
 
 /* 레이아웃 */
@@ -241,17 +241,44 @@ html .navbar-nav .nav-link,
   }
 }
 
-// Text Justify (양쪽 정렬) - 5군데 이상
-.article-style,
-.article-content,
-.biography p,
-.experience-item .card-text,
-.accomplishment-item .card-text {
+/* ==========================================
+   양쪽 정렬 (5군데) - 구체적인 선택자만
+   ========================================== */
+
+/* 1. 자기소개 페이지 본문 */
+.wg-about .biography p {
   text-align: justify !important;
-  word-break: keep-all;
+  word-break: keep-all !important;
 }
 
-// Fullwidth Slider Fix
+/* 2. 프로젝트 설명 */
+.project-detail .article-style p {
+  text-align: justify !important;
+  word-break: keep-all !important;
+}
+
+/* 3. 경력/경험 카드 */
+.experience .card-text {
+  text-align: justify !important;
+  word-break: keep-all !important;
+}
+
+/* 4. 포트폴리오 아이템 설명 */
+.portfolio-item .card-text {
+  text-align: justify !important;
+  word-break: keep-all !important;
+}
+
+/* 5. 블로그/포스트 본문 */
+.article-container .article-style p {
+  text-align: justify !important;
+  word-break: keep-all !important;
+}
+
+/* ==========================================
+   슬라이더 전체 너비
+   ========================================== */
+
 .home-section.fullwidth-slider,
 section.fullwidth-slider {
   margin-left: 0 !important;
@@ -260,99 +287,15 @@ section.fullwidth-slider {
   padding-right: 0 !important;
   max-width: 100% !important;
   width: 100% !important;
-  
-  .container {
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  
-  > div {
-    max-width: 100% !important;
-    padding: 0 !important;
-  }
 }
 
-// Custom Button Hover Effects
-.btn, .button, a.btn {
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    transition: left 0.3s ease;
-  }
-  
-  &:hover::before {
-    left: 100%;
-  }
+.fullwidth-slider .container {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.btn-primary {
-  &:hover {
-    background-color: #1976d2 !important;
-    border-color: #1565c0 !important;
-  }
-}
-
-.btn-outline-primary {
-  &:hover {
-    background-color: #2196f3 !important;
-    color: white !important;
-    border-color: #2196f3 !important;
-  }
-}
-
-// Card hover effects
-.card, .card-simple {
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  }
-}
-
-// Navigation links hover
-.navbar-nav .nav-link {
-  position: relative;
-  transition: color 0.3s ease;
-  
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: #2196f3;
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-  }
-  
-  &:hover::after {
-    width: 100%;
-  }
-}
-
-// Social icons hover
-.social-icons a {
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: scale(1.2) rotate(5deg);
-    color: #2196f3 !important;
-  }
+.fullwidth-slider > div {
+  max-width: 100% !important;
+  padding: 0 !important;
 }
