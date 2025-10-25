@@ -1,12 +1,12 @@
 ---
 # Display name
-title: 배재훈
+title: Jaehun Bae
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
+role: Industrial Information Systems Engineering & Computer AI Engineering, Jeonbuk National University
 
 # Status emoji
 status:
@@ -14,11 +14,11 @@ status:
 
 # Organizations/Affiliations
 #organizations:
-#- name: 腾讯
+#- name: Organization Name
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 프로그래밍 개발과 클라우드 컴퓨팅에 관심이 있습니다.
+bio: Interested in programming development and cloud computing.
 
 #interests:
 #- Artificial Intelligence
@@ -30,12 +30,6 @@ bio: 프로그래밍 개발과 클라우드 컴퓨팅에 관심이 있습니다.
 #  - course: PhD in Artificial Intelligence
 #    institution: Stanford University
 #    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -46,29 +40,28 @@ show_social: true
 social:
   - icon: comments
     icon_pack: fas
-    link: "/KakaoTalk_myprofile.jpg"
-    label: 카카오톡 아이디
+    link: /KakaoTalk_myprofile.jpg
+    label: KakaoTalk ID
   - icon: instagram
     icon_pack: fab
-    link: "https://www.instagram.com/mividaa_b/"
-    label: 인스타그램
+    link: https://www.instagram.com/mividaa_b/
+    label: Instagram
   - icon: github
     icon_pack: fab
-    link: https://github.com/dashboard
-    label: Github 메인
+    link: https://github.com/BaePro-source
+    label: GitHub Main
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
-    label: Linkedin 메인
+    label: LinkedIn Main
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
-    label: 전북대 산업정보시스템공학과
+    label: JBNU Industrial Information Systems Engineering
   - icon: discord
     icon_pack: fab
-    link: 'https://discord.gg/hx8S5E9D'
-    label: 디스코드 
-
+    link: https://discord.gg/hx8S5E9D
+    label: Discord
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -80,12 +73,8 @@ social:
 #email: ""
 ---
 
-배재훈은 대한민국 전주시에 위치해 있는 전북대학교에서 산업정보시스템공학과 전공과 복수전공으로 컴퓨터인공지능학부에 재학중입니다. 그는 클라우드 컴퓨팅, 시스템 성능 최적화, 인프라 자동화 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 좋아합니다.
+Jaehun Bae is a student at Jeonbuk National University located in Jeonju, South Korea, majoring in Industrial Information Systems Engineering with a double major in Computer & AI Engineering. He is interested in cloud computing, system performance optimization, and infrastructure automation, and enjoys continuously learning and applying new technologies.
 
-비록 아직 대규모 프로젝트 경험은 없지만,
-AWS와 Docker 등 클라우드 환경에서의 실습을 통해
-효율적인 시스템 운영과 관리 역량을 쌓아가고 있습니다.
-앞으로는 데이터 중심의 클라우드 아키텍처 설계와 DevOps 분야로
-전문성을 확장해 나가는 것이 목표입니다.
+Although he does not yet have experience with large-scale projects, he is building his skills in efficient system operation and management through hands-on practice with cloud environments such as AWS and Docker. His goal is to expand his expertise in data-centric cloud architecture design and the DevOps field.
 
-{{< icon name="다운로드" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} 배재훈 이력서.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun Bae's Resume.
