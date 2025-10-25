@@ -5,6 +5,9 @@
 
 title: '배재훈 Portfolio - 클라우드 개발자' # Website name
 baseURL: 'https://baepro-source.github.io/cloud-portfolio/'
+enableGitInfo: false
+enableEmoji: true
+enableRobotsTXT: true
 
 
 ############################
@@ -27,7 +30,6 @@ cascade:
 
 defaultContentLanguage: ko
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
