@@ -1,25 +1,23 @@
-# Essentially Minimal theme but with constant home section bg color.
-name = "Starter Blog"
+# Theme metadata
+name = "custom"
 
-[light]
-  # Primary
-  primary = "#2962ff"
+# Is theme light or dark?
+light = true
 
-  # Menu
-  menu_primary = "rgb(247, 250, 252)"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+# Primary
+primary = "#2196F3"  # 파란색 (클라우드 느낌)
 
-  # Home sections
-  home_section_odd = "rgb(247, 250, 252)"
-  home_section_even = "rgb(247, 250, 252)"
+# Menu
+menu_primary = "#2196F3"
+menu_text = "#fff"
+menu_text_active = "#FFD54F"
+menu_title = "#fff"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 250, 252)"
 
 [dark]
-  primary = "#bbdefb"
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  background = "rgb(26, 32, 44)"
-  home_section_odd = "rgb(26, 32, 44)"
-  home_section_even = "rgb(26, 32, 44)"
-  menu_primary = "rgb(26, 32, 44)"
+  link = "#42A5F5"
+  link_hover = "#64B5F6"
+  primary = "#42A5F5"
