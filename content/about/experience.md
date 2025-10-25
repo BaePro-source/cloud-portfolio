@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: 학생
-    school: 전북대학교
+    school: 전북특별자치도 전주시 덕진구 백제대로 567 전북대학교 전주캠퍼스
     school_url: 'https://www.jbnu.ac.kr/web/index.do'
     company_logo: ''
     location: 전주
@@ -34,7 +34,7 @@ experience:
         
         * 전북 공공데이터 창업경진대회 '특별상'
         * LG CNS 최적화 공모전 참여
-        * 전북대학교 산업정보시스템공학과 제 40대 'VIEW' 학생회/    행사지원부장     
+        * 전북대학교 산업정보시스템공학과 제 40대 'VIEW' 학생회 행사지원부장     
         * 컴퓨터인공지능학부 복수전공
 
 design:
