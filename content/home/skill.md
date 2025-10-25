@@ -20,6 +20,6 @@ content:
       tag: programming
 design:
   columns: '1'
-  view: 3
+  view: card
   flip_alt_rows: false
 ---
