@@ -1,0 +1,29 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the
+#       desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+
+main:
+  - name: 홈
+    url: /
+    weight: 10
+  - name: 자기소개
+    url: /about
+    weight: 20
+  - name: 프로젝트
+    url: /projects
+    weight: 30
+  - name: 기술 스택
+    url: /skills
+    weight: 40
+  - name: 포트폴리오
+    url: /portfolio
+    weight: 50
+  - name: 연락처
+    url: /contact
+    weight: 60
+  - name: 검색
+    url: /search
+    weight: 70
+
