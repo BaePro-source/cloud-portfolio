@@ -2,7 +2,7 @@
 title: Linux
 summary: 서버 운영과 시스템 관리를 위한 리눅스 환경
 tags:
-  - devops
+  - programming
   - linux
 date: '2024-01-08T00:00:00Z'
 
