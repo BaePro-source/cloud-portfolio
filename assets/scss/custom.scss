@@ -118,3 +118,15 @@
     grid-template-columns: 1fr !important;
   }
 }
+
+.navbar-brand {
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  color: #2196F3 !important;
+  letter-spacing: -0.5px !important;
+}
+
+.navbar-brand:hover {
+  color: #1976D2 !important;
+}
+
