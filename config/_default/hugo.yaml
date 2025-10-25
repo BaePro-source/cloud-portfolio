@@ -28,7 +28,7 @@ cascade:
 baseURL: 'https://baepro-source.github.io/cloud-portfolio/'  
 deafaultContentLanguage: ko
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
