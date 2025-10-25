@@ -25,4 +25,4 @@ author: admin
 
 💡
 
-Check out my [About](/en/about) page to learn more! 😻
+Check out my [About/](/cloud-portfolio/en/about) page to learn more! 😻
