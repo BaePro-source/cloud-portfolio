@@ -46,6 +46,10 @@ header:
     show_search: true
     highlight_active_link: false
 
+navbar:
+  enable: true
+  fixed: true
+
 footer:
   copyright:
     notice: '© {year} 배재훈. All rights reserved.'
