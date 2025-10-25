@@ -34,7 +34,5 @@ main:
   - name: 연락처
     url: contact/
     weight: 60
-  - name: 검색
-    url: /search/
-    weight: 70
+ 
 
