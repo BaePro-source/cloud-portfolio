@@ -1,6 +1,6 @@
 ---
-title: 심혈관 사망 예측
-summary: 데이터 분석 프로젝트
+title: Cardiovascular Death Prediction
+summary: Data Analysis Project
 tags:
   - DA
 date: 2024-11-25

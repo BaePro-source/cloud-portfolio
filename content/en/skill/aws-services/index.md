@@ -1,6 +1,6 @@
 ---
-title: AWS 서비스
-summary: EC2, S3, Lambda 등 다양한 AWS 클라우드 서비스를 활용한 인프라 구축과 운영 경험
+title: AWS Services
+summary: Experience building and operating infrastructure using various AWS cloud services including EC2, S3, Lambda, and more
 tags:
   - cloud
   - aws
@@ -20,15 +20,14 @@ links:
     url: https://aws.amazon.com/
 ---
 
-## AWS 클라우드 서비스 활용
+## Leveraging AWS Cloud Services
 
-아마존 웹 서비스(AWS)의 다양한 클라우드 솔루션을 학습하고 실습하며, 확장 가능하고 안정적인 인프라 구축 방법을 익히고 있습니다.
+Learning and practicing various cloud solutions from Amazon Web Services (AWS), gaining experience in building scalable and reliable infrastructure.
 
-### 주요 경험
-- **EC2**: 가상 서버 인스턴스 생성 및 관리
-- **S3**: 안전한 객체 스토리지 활용
-- **Lambda**: 서버리스 컴퓨팅 실습
-- **RDS**: 관리형 데이터베이스 운영
+### Key Experience
+- **EC2**: Creating and managing virtual server instances
+- **S3**: Utilizing secure object storage
+- **Lambda**: Practicing serverless computing
+- **RDS**: Operating managed database services
 
-클라우드 네이티브 애플리케이션 개발과 효율적인 리소스 관리를 통해 비용 최적화된 솔루션을 구현하는 것을 목표로 하고 있습니다.
-
+My goal is to implement cost-optimized solutions through cloud-native application development and efficient resource management.

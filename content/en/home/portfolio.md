@@ -11,7 +11,7 @@ headless: true
 weight: 35
 
 title: Project
-subtitle: School & 개인 프로젝트
+subtitle: School Project& Personal Project
 
 content:
   # Page type to display. E.g. project.

@@ -1,6 +1,6 @@
 ---
-title: 자료구조 실습
-summary: 자료구조 실습파일
+title: Data Structure Practice
+summary: Data Structure Practice File
 tags:
   - DS
 date: 2022-01-01
