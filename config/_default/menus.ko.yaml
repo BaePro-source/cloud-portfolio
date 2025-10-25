@@ -5,9 +5,6 @@
 
 
 main:
-  - name: 홈
-    url: /
-    weight: 10
   - name: 자기소개
     url: about/
     weight: 20

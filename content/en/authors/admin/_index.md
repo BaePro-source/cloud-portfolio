@@ -78,4 +78,4 @@ Jaehun Bae is a student at Jeonbuk National University located in Jeonju, South 
 
 Although he does not yet have experience with large-scale projects, he is building his skills in efficient system operation and management through hands-on practice with cloud environments such as AWS and Docker. His goal is to expand his expertise in data-centric cloud architecture design and the DevOps field.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun Bae's Resume.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun Bae's Resume.
