@@ -6,7 +6,7 @@
 
 main:
   - name: Home
-    url: /en/cloud-portfolio
+    url: /cloud-portfolio/en/
     weight: 10
   - name: About
     url: about/
