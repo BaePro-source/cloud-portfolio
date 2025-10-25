@@ -37,7 +37,7 @@ content:
       background:
         image:
           # Unsplash image - 추상적/기술
-          filename: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80'
+          filename: 'image.jpg'
           filters:
             brightness: 0.5
         position: center
