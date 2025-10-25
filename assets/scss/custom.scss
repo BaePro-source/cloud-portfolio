@@ -225,3 +225,44 @@ body.home .navbar {
     font-size: 1.5rem !important;
   }
 }
+
+/* 다크모드 메뉴 링크 - 흰색 */
+[data-color-scheme="dark"] .navbar-nav .nav-link,
+.dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+[data-color-scheme="dark"] .navbar-nav .nav-link:hover,
+.dark .navbar-nav .nav-link:hover {
+  color: #90CAF9 !important;  /* 밝은 파란색 */
+}
+
+/* 다크모드 활성 메뉴 */
+[data-color-scheme="dark"] .navbar-nav .nav-link.active,
+.dark .navbar-nav .nav-link.active {
+  color: #90CAF9 !important;
+}
+
+/* 다크모드 검색 아이콘 */
+[data-color-scheme="dark"] .navbar-nav .nav-link i,
+.dark .navbar-nav .nav-link i {
+  color: #ffffff !important;
+}
+
+/* 다크모드 언어 선택 */
+[data-color-scheme="dark"] .navbar-nav .dropdown-menu,
+.dark .navbar-nav .dropdown-menu {
+  background-color: #2a2a2a !important;
+  color: #ffffff !important;
+}
+
+[data-color-scheme="dark"] .dropdown-item,
+.dark .dropdown-item {
+  color: #ffffff !important;
+}
+
+[data-color-scheme="dark"] .dropdown-item:hover,
+.dark .dropdown-item:hover {
+  background-color: #3a3a3a !important;
+  color: #90CAF9 !important;
+}
