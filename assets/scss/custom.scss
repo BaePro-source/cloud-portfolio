@@ -282,3 +282,92 @@ section.fullwidth-slider {
   max-width: 100% !important;
   padding: 0 !important;
 }
+
+/* 네비게이션 레이아웃 - 기존 스타일 개선 */
+
+/* 데스크톱: 로고(왼쪽) + 메뉴(가운데) + 아이콘(오른쪽) */
+@media (min-width: 992px) {
+  .navbar .container,
+  .navbar .container-fluid,
+  .navbar .container-xl {
+    display: grid !important;
+    grid-template-columns: minmax(200px, auto) 1fr auto !important;
+    gap: 2rem !important;
+    align-items: center !important;
+  }
+  
+  .navbar-brand {
+    grid-column: 1 !important;
+    margin: 0 !important;
+  }
+  
+  /* 메인 메뉴를 가운데로 */
+  .navbar-collapse {
+    grid-column: 2 / 4 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
+  .navbar-nav:not(.ms-md-auto) {
+    flex: 1 !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin: 0 !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* 오른쪽 아이콘들 (검색, 다크모드, 언어) */
+  .navbar-nav.ms-md-auto {
+    flex: 0 0 auto !important;
+    margin-left: auto !important;
+    display: flex !important;
+    gap: 0.5rem !important;
+  }
+}
+
+/* 모바일 햄버거 메뉴 */
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    order: 2 !important;
+    margin-left: auto !important;
+  }
+  
+  .navbar-brand {
+    order: 1 !important;
+  }
+  
+  .navbar-collapse {
+    order: 3 !important;
+    width: 100% !important;
+    max-height: calc(100vh - 70px) !important;
+    overflow-y: auto !important;
+  }
+  
+  .navbar-nav:not(.ms-md-auto) {
+    padding: 1rem 0 !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  
+  .navbar-nav.ms-md-auto {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    padding: 1rem 0 !important;
+    border-top: 1px solid rgba(0,0,0,0.1) !important;
+    margin-top: 1rem !important;
+  }
+  
+  [data-color-scheme="dark"] .navbar-nav.ms-md-auto,
+  .dark .navbar-nav.ms-md-auto {
+    border-top-color: rgba(255,255,255,0.1) !important;
+  }
+  
+  .nav-item {
+    width: 100% !important;
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .navbar-nav.ms-md-auto .nav-item {
+    width: auto !important;
+  }
+}
