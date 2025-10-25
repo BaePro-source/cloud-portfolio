@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Jaehun Bae
+title: 배재훈
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Industrial Information Systems Engineering & Computer AI Engineering, Jeonbuk National University
+role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
 
 # Status emoji
 status:
