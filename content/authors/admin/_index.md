@@ -54,20 +54,24 @@ social:
   - icon: comments
     icon_pack: fas
     link: "/KakaoTalk_myprofile.jpg"
+    label: 카카오톡 아이디
   - icon: instagram
     icon_pack: fab
     link: "https://www.instagram.com/mividaa_b/"
-# Uncomment below for Github link
+    labe: 인스타그램
   - icon: github
     icon_pack: fab
     link: https://github.com/dashboard
+    labe: Github 메인
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
+    labe: Linkedin 메인
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
-  - icon: envelops
+    labe: 전북대 산업정보시스템공학과
+  - icon: envelop
     icon_pack: fas
     link: 'mailto: cloudjaehun@gmail.com'
     label: Email me
