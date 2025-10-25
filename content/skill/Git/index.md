@@ -4,7 +4,7 @@ summary: 버전 관리와 협업을 위한 Git 활용
 tags:
   - devops
   - git
-date: '2024-01-07T00:00:00Z'
+date: '2025-09-20T00:00:00Z'
 
 image:
   focal_point: Smart

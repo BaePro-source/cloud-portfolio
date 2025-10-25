@@ -4,7 +4,7 @@ summary: 데이터베이스 설계와 SQL을 활용한 데이터 관리
 tags:
   - cloud
   - sql
-date: '2024-01-09T00:00:00Z'
+date: '2025-03-02T00:00:00Z'
 
 image:
   focal_point: Smart

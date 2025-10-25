@@ -4,7 +4,7 @@ summary: 시스템 프로그래밍과 자료구조를 위한 C 언어 학습
 tags:
   - programming
   - c
-date: '2024-01-06T00:00:00Z'
+date: '2021-03-10T00:00:00Z'
 
 image:
   focal_point: Smart

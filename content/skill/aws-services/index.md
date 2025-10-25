@@ -4,7 +4,7 @@ summary: EC2, S3, Lambda 등 다양한 AWS 클라우드 서비스를 활용한 �
 tags:
   - cloud
   - aws
-date: '2024-01-09T00:00:00Z'
+date: '2025-10-10T00:00:00Z'
 
 # Featured image
 image:

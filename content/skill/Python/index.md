@@ -4,7 +4,7 @@ summary: 데이터 분석과 백엔드 개발을 위한 파이썬 프로그래�
 tags:
   - programming
   - python
-date: '2024-01-05T00:00:00Z'
+date: '2021-03-10T00:00:00Z'
 
 image:
   focal_point: Smart
