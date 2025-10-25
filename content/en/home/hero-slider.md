@@ -15,7 +15,7 @@ design:
     <div class="slide-content">
       <h1>Success Achieved</h1>
       <p>Creating a better tomorrow through DevOps and automation</p>
-      <a href="../contact/" class="btn btn-primary">To be together</a>
+      <a href="/en/contact/" class="btn btn-primary">To be together</a>
     </div>
   </div>
   
@@ -23,7 +23,7 @@ design:
     <div class="slide-content">
       <h1>The Future of Data-Driven</h1>
       <p>Building efficient infrastructure with AWS and Docker</p>
-      <a href="../project/" class="btn btn-primary">View Project</a>
+      <a href="/en/project/" class="btn btn-primary">View Project</a>
     </div>
   </div>
   
@@ -31,7 +31,7 @@ design:
     <div class="slide-content">
       <h1>The Future of Cloud Computing</h1>
       <p>Shaping the cloud landscape with innovative technology</p>
-      <a href="../about/" class="btn btn-primary">Learn More</a>
+      <a href="/en/about/" class="btn btn-primary">Learn More</a>
     </div>
   </div>
   
