@@ -3,36 +3,50 @@
 #       desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-main:
-  - name: 홈
-    url: /
-    weight: 10
-  - name: 자기소개
-    url: about/
-    weight: 20
-  - name: 프로젝트
-    url: project/
-    weight: 30
-    identifier: projects
-  - name: 기술 스택
-    url: skill/
-    weight: 40
-    identifier: skills
-  - name: 포트폴리오
-    url: '#'
-    weight: 50
-    identifier: portfolio
-  - name: 학교 프로젝트
-    url: project/
-    weight: 51
-    parent: portfolio
-  - name: 개인 프로젝트
-    url: skill/
-    weight: 52
-    parent: portfolio
-  - name: 연락처
-    url: contact/
-    weight: 60
-  - name: 검색
-    url: /search/
-    weight: 70
+ko:
+  main:
+    - name: 홈
+      url: /
+      weight: 10
+    - name: 자기소개
+      url: /about
+      weight: 20
+    - name: 프로젝트
+      url: /projects
+      weight: 30
+    - name: 기술 스택
+      url: /skills
+      weight: 40
+    - name: 포트폴리오
+      url: /portfolio
+      weight: 50
+    - name: 연락처
+      url: /contact
+      weight: 60
+    - name: 검색
+      url: /search
+      weight: 70
+
+en:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: About
+      url: /about
+      weight: 20
+    - name: Projects
+      url: /projects
+      weight: 30
+    - name: Skills
+      url: /skills
+      weight: 40
+    - name: Portfolio
+      url: /portfolio
+      weight: 50
+    - name: Contact
+      url: /contact
+      weight: 60
+    - name: Search
+      url: /search
+      weight: 70
