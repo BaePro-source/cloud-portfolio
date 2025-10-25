@@ -40,7 +40,7 @@ show_social: true
 social:
   - icon: comments
     icon_pack: fas
-    link: cloud-portfolio/KakaoTalk_myprofile.jpg
+    link: /cloud-portfolio/KakaoTalk_myprofile.jpg
     label: 카카오톡 아이디
   - icon: instagram
     icon_pack: fab
