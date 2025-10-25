@@ -50,28 +50,6 @@
   }
 }
 
-// Navigation links hover
-.navbar-nav .nav-link {
-  position: relative;
-  transition: color 0.3s ease;
-  
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: #2196f3;
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-  }
-  
-  &:hover::after {
-    width: 100%;
-  }
-}
-
 // Social icons hover
 .social-icons a {
   transition: all 0.3s ease;
@@ -120,29 +98,25 @@
 }
 
 /* ==========================================
-   로고 스타일 - 모든 페이지 통일
+   네비게이션 - 최우선 순위로 강제 적용
    ========================================== */
 
-/* 네비게이션 배경 - 모든 페이지 동일하게 */
+/* 모든 네비게이션 배경 - 라이트모드 */
+body .navbar,
+html .navbar,
 .navbar,
-.navbar-fixed-top,
-nav.navbar,
-.home .navbar,
-.page .navbar,
-body .navbar {
+nav,
+header nav {
   background-color: #ffffff !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
   border-bottom: 1px solid #e0e0e0 !important;
 }
 
-/* 로고 - 모든 페이지에서 검정색 */
+/* 모든 로고 - 라이트모드 */
+body .navbar-brand,
+html .navbar-brand,
 .navbar-brand,
-a.navbar-brand,
-.home .navbar-brand,
-.page .navbar-brand,
-.navbar-light .navbar-brand,
-.navbar-default .navbar-brand,
-body .navbar-brand {
+a.navbar-brand {
   color: #000000 !important;
   font-weight: 800 !important;
   font-size: 2rem !important;
@@ -156,39 +130,36 @@ body .navbar-brand {
   color: #0D47A1 !important;
 }
 
-/* 홈 페이지에서도 흰색 배경 강제 */
-.home .navbar,
-.home-section .navbar,
-body.home .navbar {
-  background-color: #ffffff !important;
-  opacity: 1 !important;
-}
-
-/* 스크롤 후에도 동일하게 */
-.navbar.navbar-shrink,
-.navbar.scrolled,
-.navbar.nav-up,
-.navbar.headroom--not-top {
-  background-color: #ffffff !important;
-}
-
-.navbar.navbar-shrink .navbar-brand,
-.navbar.scrolled .navbar-brand {
-  color: #000000 !important;
-}
-
-/* 메뉴 항목들 색상 */
-.navbar-nav .nav-link,
-.home .navbar-nav .nav-link,
-.page .navbar-nav .nav-link {
+/* 모든 메뉴 링크 - 라이트모드 */
+body .navbar-nav .nav-link,
+html .navbar-nav .nav-link,
+.navbar-nav .nav-link {
   color: #333333 !important;
+  position: relative;
+  transition: color 0.3s ease;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #2196f3;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  &:hover {
+    color: #0D47A1 !important;
+  }
+  
+  &:hover::after {
+    width: 100%;
+  }
 }
 
-.navbar-nav .nav-link:hover {
-  color: #0D47A1 !important;
-}
-
-/* 로고를 왼쪽으로, 메뉴를 오른쪽으로 */
+/* 레이아웃 */
 .navbar-nav {
   margin-left: auto !important;
 }
@@ -203,30 +174,27 @@ body.home .navbar {
   align-items: center !important;
 }
 
-/* 다크모드 */
+/* ==========================================
+   다크모드 - 최우선 순위
+   ========================================== */
+
+[data-color-scheme="dark"] body .navbar,
+[data-color-scheme="dark"] html .navbar,
 [data-color-scheme="dark"] .navbar,
 .dark .navbar {
   background-color: #1a1a1a !important;
   border-bottom: 1px solid #333 !important;
 }
 
+[data-color-scheme="dark"] body .navbar-brand,
+[data-color-scheme="dark"] html .navbar-brand,
 [data-color-scheme="dark"] .navbar-brand,
 .dark .navbar-brand {
   color: #ffffff !important;
 }
 
-[data-color-scheme="dark"] .navbar-nav .nav-link {
-  color: #e0e0e0 !important;
-}
-
-/* 모바일 반응형 */
-@media (max-width: 768px) {
-  .navbar-brand {
-    font-size: 1.5rem !important;
-  }
-}
-
-/* 다크모드 메뉴 링크 - 흰색 */
+[data-color-scheme="dark"] body .navbar-nav .nav-link,
+[data-color-scheme="dark"] html .navbar-nav .nav-link,
 [data-color-scheme="dark"] .navbar-nav .nav-link,
 .dark .navbar-nav .nav-link {
   color: #ffffff !important;
@@ -234,22 +202,21 @@ body.home .navbar {
 
 [data-color-scheme="dark"] .navbar-nav .nav-link:hover,
 .dark .navbar-nav .nav-link:hover {
-  color: #90CAF9 !important;  /* 밝은 파란색 */
+  color: #90CAF9 !important;
 }
 
-/* 다크모드 활성 메뉴 */
 [data-color-scheme="dark"] .navbar-nav .nav-link.active,
 .dark .navbar-nav .nav-link.active {
   color: #90CAF9 !important;
 }
 
-/* 다크모드 검색 아이콘 */
+/* 다크모드 아이콘 */
 [data-color-scheme="dark"] .navbar-nav .nav-link i,
 .dark .navbar-nav .nav-link i {
   color: #ffffff !important;
 }
 
-/* 다크모드 언어 선택 */
+/* 다크모드 드롭다운 */
 [data-color-scheme="dark"] .navbar-nav .dropdown-menu,
 .dark .navbar-nav .dropdown-menu {
   background-color: #2a2a2a !important;
@@ -265,4 +232,11 @@ body.home .navbar {
 .dark .dropdown-item:hover {
   background-color: #3a3a3a !important;
   color: #90CAF9 !important;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
 }
