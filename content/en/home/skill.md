@@ -3,7 +3,7 @@ widget: portfolio
 headless: true
 weight: 45
 
-title: 'Core Competencies''
+title: 'Core Competencies'
 subtitle: 'Cloud Computing Expertise'
 
 content:
@@ -18,6 +18,7 @@ content:
       tag: devops
     - name: Programming
       tag: programming
+
 design:
   columns: '1'
   view: 3
