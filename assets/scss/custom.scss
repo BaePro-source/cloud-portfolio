@@ -119,99 +119,109 @@
   }
 }
 
-/* 로고 색상 강제 고정 - 모든 페이지/섹션에서 동일하게 */
-.navbar-brand,
-.navbar-brand .navbar-text,
-.site-logo,
-a.navbar-brand,
-.navbar-light .navbar-brand,
-.navbar-dark .navbar-brand,
-header .navbar-brand,
-.home-section .navbar-brand,
-.page-header .navbar-brand {
-  color: #0D47A1 !important;  /* 매우 진한 파란색 */
-  font-weight: 700 !important;
-  font-size: 1.8rem !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.15) !important;
-  letter-spacing: -0.5px !important;
-  opacity: 1 !important;  /* 투명도 강제 100% */
-}
-
-/* 호버 시에도 진하게 */
-.navbar-brand:hover,
-a.navbar-brand:hover {
-  color: #01579B !important;  /* 더 진한 색 */
-}
-
-/* 다크모드에서도 동일하게 */
-[data-color-scheme="dark"] .navbar-brand,
-.dark .navbar-brand {
-  color: #42A5F5 !important;  /* 다크모드에서는 밝은 파란색 */
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
-}
-
-/* 라이트모드 강제 */
-[data-color-scheme="light"] .navbar-brand,
-.light .navbar-brand {
-  color: #0D47A1 !important;
-}
-
-/* 모든 상태에서 불투명도 제거 */
-.navbar-brand * {
-  opacity: 1 !important;
-}
-
-/* 네비게이션 바 자체 배경도 고정 */
-.navbar {
-  background-color: rgba(255, 255, 255, 0.98) !important;
-  backdrop-filter: blur(10px) !important;
-  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
-}
-
-/* 다크모드 네비게이션 */
-[data-color-scheme="dark"] .navbar {
-  background-color: rgba(31, 33, 33, 0.98) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
-}
-
-/* 스크롤 시에도 유지 */
-.navbar.navbar-shrink .navbar-brand,
-.navbar.scrolled .navbar-brand {
-  color: #0D47A1 !important;
-}
-
 /* ==========================================
-   로고 가시성 최대화
+   로고 스타일 - 모든 페이지 통일
    ========================================== */
 
-/* 네비게이션 배경 */
-.navbar {
+/* 네비게이션 배경 - 모든 페이지 동일하게 */
+.navbar,
+.navbar-fixed-top,
+nav.navbar,
+.home .navbar,
+.page .navbar,
+body .navbar {
   background-color: #ffffff !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  border-bottom: 1px solid #e0e0e0 !important;
 }
 
-/* 로고 - 거의 검정색으로 */
+/* 로고 - 모든 페이지에서 검정색 */
 .navbar-brand,
 a.navbar-brand,
-.site-logo,
-.navbar-light .navbar-brand {
-  color: #000000 !important;  /* 완전 검정 */
+.home .navbar-brand,
+.page .navbar-brand,
+.navbar-light .navbar-brand,
+.navbar-default .navbar-brand,
+body .navbar-brand {
+  color: #000000 !important;
   font-weight: 800 !important;
   font-size: 2rem !important;
   opacity: 1 !important;
-  text-shadow: none !important;
+  text-decoration: none !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 .navbar-brand:hover {
-  color: #0D47A1 !important;  /* 호버 시 파란색 */
+  color: #0D47A1 !important;
+}
+
+/* 홈 페이지에서도 흰색 배경 강제 */
+.home .navbar,
+.home-section .navbar,
+body.home .navbar {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* 스크롤 후에도 동일하게 */
+.navbar.navbar-shrink,
+.navbar.scrolled,
+.navbar.nav-up,
+.navbar.headroom--not-top {
+  background-color: #ffffff !important;
+}
+
+.navbar.navbar-shrink .navbar-brand,
+.navbar.scrolled .navbar-brand {
+  color: #000000 !important;
+}
+
+/* 메뉴 항목들 색상 */
+.navbar-nav .nav-link,
+.home .navbar-nav .nav-link,
+.page .navbar-nav .nav-link {
+  color: #333333 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0D47A1 !important;
+}
+
+/* 로고를 왼쪽으로, 메뉴를 오른쪽으로 */
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.navbar-brand {
+  margin-right: auto !important;
+}
+
+.navbar .container,
+.navbar .container-fluid {
+  justify-content: space-between !important;
+  align-items: center !important;
 }
 
 /* 다크모드 */
-[data-color-scheme="dark"] .navbar {
+[data-color-scheme="dark"] .navbar,
+.dark .navbar {
   background-color: #1a1a1a !important;
+  border-bottom: 1px solid #333 !important;
 }
 
-[data-color-scheme="dark"] .navbar-brand {
+[data-color-scheme="dark"] .navbar-brand,
+.dark .navbar-brand {
   color: #ffffff !important;
 }
 
+[data-color-scheme="dark"] .navbar-nav .nav-link {
+  color: #e0e0e0 !important;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}

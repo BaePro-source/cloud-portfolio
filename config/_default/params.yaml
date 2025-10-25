@@ -36,19 +36,18 @@ marketing:
 header:
   navbar:
     enable: true
+    fixed: true
     logo:
       text: "BaePro Portfolio"
     show_logo: true
     show_logo_text: true
-    align: r
+    align: left
     show_language: true
     show_day_night: true
     show_search: true
     highlight_active_link: false
+    transparent: false
 
-navbar:
-  enable: true
-  fixed: true
 
 footer:
   copyright:
