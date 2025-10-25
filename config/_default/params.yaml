@@ -3,9 +3,6 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-website_name: "배재훈 Portfolio - 전북대 클라우드 개발자 지망생"
-site_name: "배재훈 Portfolio - 전북대 클라우드 개발자 지망생"
-
 # Appearance
 
 appearance:
@@ -21,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: '전북대학교'
-    description: '배재훈 Portfolio | 전북대 클라우드 개발자 지망생. 클라우드 컴퓨팅과 DevOps에 관심이 많습니다.'
+    description: '클라우드 컴퓨팅과 DevOps에 관심이 많습니다.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
