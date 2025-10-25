@@ -8,6 +8,7 @@ ko:
   languageName: 한국어
   weight: 1
   title: BaePro Portfolio
+  contentDir: content/ko
   params:
     description: 배프로의 포트폴리오
 
@@ -16,6 +17,7 @@ en:
   languageName: English
   weight: 2
   title: BaePro Portfolio
+  contentDir: content/en
   params:
     description: BaePro's Portfolio
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
