@@ -80,23 +80,6 @@ BaePro-source.github.io/
 └── static/          # 정적 파일
 ```
 
-## 🚀 로컬 실행 방법
-
-```bash
-# Hugo 설치 (필요시)
-# Windows: choco install hugo-extended
-# Mac: brew install hugo
-
-# 저장소 클론
-git clone https://github.com/BaePro-source/BaePro-source.github.io.git
-cd BaePro-source.github.io
-
-# 로컬 서버 실행
-hugo server -D
-
-# 브라우저에서 http://localhost:1313 접속
-```
-
 ## 📝 라이선스
 
 이 프로젝트는 개인 포트폴리오 용도로 제작되었습니다.
