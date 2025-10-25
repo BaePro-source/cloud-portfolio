@@ -6,25 +6,25 @@
 
 main:
   - name: Home
-    url: /
+    url: /en/
     weight: 10
   - name: About
-    url: /about
+    url: /en/about
     weight: 20
   - name: Projects
-    url: /projects
+    url: /en/projects
     weight: 30
   - name: Skills
-    url: /skills
+    url: /en/skills
     weight: 40
   - name: Portfolio
-    url: /portfolio
+    url: /en/portfolio
     weight: 50
   - name: Contact
-    url: /contact
+    url: /en/contact
     weight: 60
   - name: Search
-    url: /search
+    url: /en/search
     weight: 70
 
 
