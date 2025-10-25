@@ -18,12 +18,12 @@ main:
     url: /skill
     weight: 40
   - name: 포트폴리오
-    url: /portfolio
+    url: /ko/#portfolio
     weight: 50
   - name: 연락처
     url: /contact
     weight: 60
   - name: 검색
-    url: /search
+    url: /ko/search
     weight: 70
 
