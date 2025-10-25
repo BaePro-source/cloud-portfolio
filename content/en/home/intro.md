@@ -20,7 +20,8 @@ author: admin
 #  css_class: fullscreen
 ---
 
-👋 Hello! I'm Jaehun Bae! I'm a third-year student at **Jeonbuk National University**, majoring in **Industrial Information Systems Engineering** and pursuing a double major in **Computer & AI Engineering**! {style="font-size: 1.2rem; background: linear-gradient(to right, #fff9c4 0%, #ffeb3b 40%, #ffa000 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+👋 Hello! I'm Jaehun Bae! I'm a third-year student at **Jeonbuk National University**, majoring in **Industrial Information Systems Engineering** and pursuing a double major in **Computer & AI Engineering**! 
+{style="font-size: 1.2rem; background: linear-gradient(to right, #fff9c4 0%, #ffeb3b 40%, #ffa000 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
 💡
 
