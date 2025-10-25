@@ -7,6 +7,7 @@ ko:
   languageCode: ko
   languageName: 한국어
   weight: 1
+  baseURL: 'https://baepro-source.github.io/cloud-portfolio/'
   title: BaePro Portfolio
   contentDir: content/ko
   params:
@@ -16,6 +17,7 @@ en:
   languageCode: en
   languageName: English
   weight: 2
+  baseURL: 'https://baepro-source.github.io/cloud-portfolio/en/'
   title: BaePro Portfolio
   contentDir: content/en
   params:
