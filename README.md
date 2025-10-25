@@ -1,32 +1,112 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+# 배재훈 포트폴리오 웹사이트 ☁️
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+> 클라우드 컴퓨팅과 DevOps를 공부하는 전북대학교 학생의 포트폴리오 사이트입니다.
 
-The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
+[![Deploy to GitHub Pages](https://github.com/BaePro-source/BaePro-source.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/BaePro-source/BaePro-source.github.io/actions/workflows/deploy.yml)
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## 🌐 사이트 주소
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+**https://baepro-source.github.io/**
 
-[Check out the latest demo](https://hugo-portfolio-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+## 👨‍💻 소개
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+안녕하세요! 저는 **배재훈**입니다.
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+- 🎓 **전북대학교** 산업정보시스템공학과 (주전공)
+- 💻 **전북대학교** 컴퓨터인공지능학부 (복수전공)
+- ☁️ **관심 분야**: 클라우드 컴퓨팅, DevOps, 인프라 자동화
 
-## We ask you, humbly, to support this open source movement
+## 🛠️ 기술 스택
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+### Cloud & Infrastructure
+- **AWS** - EC2, S3, Lambda, RDS
+- **Docker** - 컨테이너화, Docker Compose
+- **DevOps** - CI/CD, GitHub Actions
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+### Programming Languages
+- **Python** - 데이터 분석, 자동화
+- **C** - 자료구조, 시스템 프로그래밍
+- **SQL** - 데이터베이스 관리
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+### Tools & Environment
+- **Git & GitHub** - 버전 관리, 협업
+- **Linux** - 서버 관리, 셸 스크립팅
+
+## 📂 주요 프로젝트
+
+### 1. 포트폴리오 웹사이트
+- Hugo + GitHub Pages로 구축한 개인 포트폴리오
+- 반응형 디자인 및 자동 배포 구현
+- **기술**: Hugo, HTML/CSS, JavaScript, GitHub Actions
+
+### 2. 클라우드 아키텍처 학습
+- AWS 서비스를 활용한 인프라 구축 실습
+- Docker를 이용한 컨테이너 기반 개발 환경 구성
+- **기술**: AWS, Docker, Terraform
+
+## 🎯 목표
+
+1. **클라우드 아키텍트** - 확장 가능한 클라우드 시스템 설계
+2. **DevOps 엔지니어** - CI/CD 파이프라인 구축 및 자동화
+3. **지속적인 학습** - 최신 클라우드 기술 및 트렌드 파악
+
+## 📚 학습 활동
+
+- 📖 AWS 공식 문서 학습
+- 🐳 Docker & Kubernetes 실습
+- 🔧 GitHub Actions를 활용한 자동 배포
+- 💡 오픈소스 프로젝트 기여
+
+## 📞 연락처
+
+- **Email**: cloudjaehun@gmail.com
+- **GitHub**: [@BaePro-source](https://github.com/BaePro-source)
+- **LinkedIn**: [cloudjaehun](https://www.linkedin.com/in/cloudjaehun/)
+- **Instagram**: [@mividaa_b](https://www.instagram.com/mividaa_b/)
+
+## 🏗️ 사이트 구조
+
+```
+BaePro-source.github.io/
+├── content/           # 콘텐츠 파일
+│   ├── home/         # 메인 페이지 섹션
+│   ├── about/        # 자기소개 페이지
+│   ├── project/      # 프로젝트 페이지
+│   ├── skill/        # 기술 스택 페이지
+│   └── contact/      # 연락처 페이지
+├── config/           # 사이트 설정
+├── assets/           # CSS, 이미지 등
+├── data/            # 데이터 파일
+└── static/          # 정적 파일
+```
+
+## 🚀 로컬 실행 방법
+
+```bash
+# Hugo 설치 (필요시)
+# Windows: choco install hugo-extended
+# Mac: brew install hugo
+
+# 저장소 클론
+git clone https://github.com/BaePro-source/BaePro-source.github.io.git
+cd BaePro-source.github.io
+
+# 로컬 서버 실행
+hugo server -D
+
+# 브라우저에서 http://localhost:1313 접속
+```
+
+## 📝 라이선스
+
+이 프로젝트는 개인 포트폴리오 용도로 제작되었습니다.
+
+---
+
+<div align="center">
+
+**Built with ❤️ by 배재훈**
+
+*Last updated: 2025.01*
+
+</div>
