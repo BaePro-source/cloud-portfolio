@@ -7,7 +7,7 @@ ko:
   languageCode: ko
   languageName: 한국어
   weight: 1
-  title: .배재훈 Portfolio | 전북대 클라우드 개발자 지망생
+  title: BaePro Portfolio
   contentDir: content/ko
   params:
     description: BaePro Portfolio
