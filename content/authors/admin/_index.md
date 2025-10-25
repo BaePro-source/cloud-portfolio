@@ -58,23 +58,23 @@ social:
   - icon: instagram
     icon_pack: fab
     link: "https://www.instagram.com/mividaa_b/"
-    labe: 인스타그램
+    label: 인스타그램
   - icon: github
     icon_pack: fab
     link: https://github.com/dashboard
-    labe: Github 메인
+    label: Github 메인
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
-    labe: Linkedin 메인
+    label: Linkedin 메인
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
-    labe: 전북대 산업정보시스템공학과
-  - icon: envelop
-    icon_pack: fas
-    link: 'mailto: cloudjaehun@gmail.com'
-    label: Email me
+    label: 전북대 산업정보시스템공학과
+  - icon: discord
+    icon_pack: fab
+    link: 'https://discord.gg/hx8S5E9D'
+    label: 디스코드 
 
 
 # Link to a PDF of your resume/CV from the About widget.
