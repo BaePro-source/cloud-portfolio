@@ -25,7 +25,6 @@ cascade:
 ## LANGUAGE
 ############################
 
-baseURL: 'https://baepro-source.github.io/cloud-portfolio/'  
 defaultContentLanguage: ko
 hasCJKLanguage: true
 defaultContentLanguageInSubdir: true
