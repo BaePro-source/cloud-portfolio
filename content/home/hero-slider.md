@@ -161,6 +161,7 @@ section.fullwidth-slider {
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .slide-content p {
@@ -242,6 +243,7 @@ section.fullwidth-slider {
   
   .slide-content h1 {
     font-size: 2rem;
+    white-space: normal;
   }
   
   .slide-content p {
