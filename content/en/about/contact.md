@@ -3,7 +3,6 @@
 # Documentation: https://docs.hugoblox.com/getting-started/page-builder/
 widget: contact
 
-active: true
 # This file represents a page section.
 headless: true
 
