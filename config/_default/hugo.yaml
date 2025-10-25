@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: '배재훈 Portfolio - 전북대 클라우드 개발자 지망생' # Website name
-description: '전북대 산업정보시스템공학과,컴퓨터인공지능학부 학생입니다. 클라우드, DevOps, 백엔드 개발 포트폴리오를 확인하세요.
+description: '전북대 산업정보시스템공학과,컴퓨터인공지능학부 학생입니다. 클라우드, DevOps, 백엔드 개발 포트폴리오를 확인하세요.'
 baseURL: 'https://baepro-source.github.io/cloud-portfolio/'
 
 ############################
