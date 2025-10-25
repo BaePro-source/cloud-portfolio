@@ -110,7 +110,7 @@ section.fullwidth-slider {
 .slider-container {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 350px;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -238,7 +238,7 @@ section.fullwidth-slider {
 /* 모바일 반응형 */
 @media (max-width: 768px) {
   .slider-container {
-    height: 350px;
+    height: 280px;
   }
   
   .slide-content h1 {
@@ -264,7 +264,7 @@ section.fullwidth-slider {
 /* 큰 화면 */
 @media (min-width: 1200px) {
   .slider-container {
-    height: 600px;
+    height: 450px;
   }
   
   .slide-content h1 {

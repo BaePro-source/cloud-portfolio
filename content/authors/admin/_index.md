@@ -67,6 +67,10 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
+  - icon: envelops
+    icon_pack: fas
+    link: 'mailto: cloudjaehun@gmail.com'
+    label: Email me
 
 
 # Link to a PDF of your resume/CV from the About widget.
