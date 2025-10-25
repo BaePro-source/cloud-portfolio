@@ -7,19 +7,19 @@ ko:
   languageCode: ko
   languageName: 한국어
   weight: 1
-  title: BaePro Portfolio
+  title: 배재훈의 웹사이트
   contentDir: content/ko
   params:
-    description: 배프로의 포트폴리오
+    description: 배재훈의 웹사이트
 
 en:
   languageCode: en
   languageName: English
   weight: 2
-  title: BaePro Portfolio
+  title: Jaehun Bae's Website
   contentDir: content/en
   params:
-    description: BaePro's Portfolio
+    description: Jaehun Bae's Website - Hoping to be a cloud developer
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 

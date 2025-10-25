@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: '배재훈 Portfolio - 클라우드 개발자' # Website name
+title: '배재훈 Portfolio - 클라우드 개발자 지망생' # Website name
 baseURL: 'https://baepro-source.github.io/cloud-portfolio/'
 enableGitInfo: false
 enableEmoji: true
