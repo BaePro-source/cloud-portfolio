@@ -42,7 +42,7 @@ social:
   - icon: comments
     icon_pack: fas
     link: https://open.kakao.com/o/sg7E5XYh
-    label: KakaoTalk ID
+    label: KakaoTalk OpenChat
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/mividaa_b/

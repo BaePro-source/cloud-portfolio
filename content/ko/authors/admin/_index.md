@@ -41,7 +41,7 @@ social:
   - icon: comments
     icon_pack: fas
     link: https://open.kakao.com/o/sg7E5XYh
-    label: 카카오톡 아이디
+    label: 카카오톡 오픈채팅방
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/mividaa_b/
