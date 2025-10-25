@@ -30,6 +30,7 @@ cascade:
 
 defaultContentLanguage: ko
 hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 ############################
