@@ -1,19 +1,12 @@
 ---
 # Display name
-title: 배재훈
+title: Jaehun Bae
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
-
-# Featured image
-image:
-  caption: '클라우드 컴퓨팅 전문가'
-  focal_point: Smart
-  preview_only: false
-  filename: featured.jpg
+role: Jeonbuk National University - Industrial Information Systems Engineering, Computer & AI Engineering
 
 # Status emoji
 status:
@@ -25,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 프로그래밍 개발과 클라우드 컴퓨팅에 관심이 있습니다.
+bio: I'm interested in programming, development, and cloud computing.
 
 #interests:
 #- Artificial Intelligence
@@ -54,27 +47,27 @@ social:
   - icon: comments
     icon_pack: fas
     link: "/KakaoTalk_myprofile.jpg"
-    label: 카카오톡 아이디
+    label: KakaoTalk ID
   - icon: instagram
     icon_pack: fab
     link: "https://www.instagram.com/mividaa_b/"
-    label: 인스타그램
+    label: Instagram Profile
   - icon: github
     icon_pack: fab
     link: https://github.com/dashboard
-    label: Github 메인
+    label: Github Dashboard
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
-    label: Linkedin 메인
+    label: Linkedin Dashboard
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
-    label: 전북대 산업정보시스템공학과
+    label: Jeonbuk National University - Industrial Information Systems Engineering
   - icon: discord
     icon_pack: fab
     link: 'https://discord.gg/hx8S5E9D'
-    label: 디스코드 
+    label: Discord 
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -87,12 +80,9 @@ social:
 #email: ""
 ---
 
-배재훈은 대한민국 전주시에 위치해 있는 전북대학교에서 산업정보시스템공학과 전공과 복수전공으로 컴퓨터인공지능학부에 재학중입니다. 그는 클라우드 컴퓨팅, 시스템 성능 최적화, 인프라 자동화 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 좋아합니다.
+Jaehun Bae is a student at **Jeonbuk National University** in Jeonju, South Korea, majoring in **Industrial Information Systems Engineering** and pursuing a double major in **Computer & AI Engineering**. He is passionate about **cloud computing**, **system optimization**, **infrastructure automation**, and interested in continuously learning and applying new technologies.
 
-비록 아직 대규모 프로젝트 경험은 없지만,
-AWS와 Docker 등 클라우드 환경에서의 실습을 통해
-효율적인 시스템 운영과 관리 역량을 쌓아가고 있습니다.
-앞으로는 데이터 중심의 클라우드 아키텍처 설계와 DevOps 분야로
-전문성을 확장해 나가는 것이 목표입니다.
+Although he currently lacks extensive hands-on project experience with **AWS** and **Docker**, he is thoroughly learning cloud architecture through practical implementation and diligently improving his skills in efficient system operation and management. His vision is to expand his expertise through **data-driven cloud architecture design** and the **DevOps** field, ultimately becoming a professional.
 
-{{< icon name="다운로드" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} 배재훈 이력서.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun's resume.
+
