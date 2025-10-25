@@ -15,7 +15,7 @@ design:
     <div class="slide-content">
       <h1>Success Achieved</h1>
       <p>Creating a better tomorrow through DevOps and automation</p>
-      <a href="../contact/" class="btn btn-primary">함께하기</a>
+      <a href="../contact/" class="btn btn-primary">To be together</a>
     </div>
   </div>
   
@@ -23,7 +23,7 @@ design:
     <div class="slide-content">
       <h1>The Future of Data-Driven</h1>
       <p>Building efficient infrastructure with AWS and Docker</p>
-      <a href="../project/" class="btn btn-primary">프로젝트 보기</a>
+      <a href="../project/" class="btn btn-primary">View Project</a>
     </div>
   </div>
   
