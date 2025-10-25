@@ -6,7 +6,7 @@
 
 main:
   - name: 홈
-    url: /ko/
+    url: /
     weight: 10
   - name: 자기소개
     url: about/
