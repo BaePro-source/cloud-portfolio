@@ -97,9 +97,7 @@
   }
 }
 
-/* ==========================================
-   네비게이션 - 최우선 순위로 강제 적용
-   ========================================== */
+/* 네비게이션 - 최우선 순위로 강제 적용 */
 
 /* 모든 네비게이션 배경 - 라이트모드 */
 body .navbar,
@@ -174,9 +172,7 @@ html .navbar-nav .nav-link,
   align-items: center !important;
 }
 
-/* ==========================================
-   다크모드 - 최우선 순위
-   ========================================== */
+/* 다크모드 - 최우선 순위 */
 
 [data-color-scheme="dark"] body .navbar,
 [data-color-scheme="dark"] html .navbar,
@@ -241,43 +237,30 @@ html .navbar-nav .nav-link,
   }
 }
 
-/* ==========================================
-   양쪽 정렬 (5군데) - 구체적인 선택자만
-   ========================================== */
-
-/* 1. 자기소개 페이지 본문 */
 .wg-about .biography p {
   text-align: justify !important;
   word-break: keep-all !important;
 }
 
-/* 2. 프로젝트 설명 */
 .project-detail .article-style p {
   text-align: justify !important;
   word-break: keep-all !important;
 }
 
-/* 3. 경력/경험 카드 */
 .experience .card-text {
   text-align: justify !important;
   word-break: keep-all !important;
 }
 
-/* 4. 포트폴리오 아이템 설명 */
 .portfolio-item .card-text {
   text-align: justify !important;
   word-break: keep-all !important;
 }
 
-/* 5. 블로그/포스트 본문 */
 .article-container .article-style p {
   text-align: justify !important;
   word-break: keep-all !important;
 }
-
-/* ==========================================
-   슬라이더 전체 너비
-   ========================================== */
 
 .home-section.fullwidth-slider,
 section.fullwidth-slider {
