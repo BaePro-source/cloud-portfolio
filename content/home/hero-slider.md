@@ -13,9 +13,9 @@ design:
 <div class="slider-container">
   <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80');">
     <div class="slide-content">
-      <h1>클라우드 컴퓨팅의 미래</h1>
-      <p>혁신적인 기술로 세상을 변화시키는 클라우드 여정</p>
-      <a href="../about/" class="btn btn-primary">더 알아보기</a>
+      <h1>끊임없는 성장</h1>
+      <p>DevOps와 자동화로 만드는 더 나은 내일</p>
+      <a href="../contact/" class="btn btn-primary">함께하기</a>
     </div>
   </div>
   
@@ -29,9 +29,9 @@ design:
   
   <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80');">
     <div class="slide-content">
-      <h1>끊임없는 성장</h1>
-      <p>DevOps와 자동화로 만드는 더 나은 내일</p>
-      <a href="../contact/" class="btn btn-primary">함께하기</a>
+      <h1>클라우드 컴퓨팅의 미래</h1>
+      <p>혁신적인 기술로 세상을 변화시키는 클라우드 여정</p>
+      <a href="../about/" class="btn btn-primary">더 알아보기</a>
     </div>
   </div>
   
@@ -79,7 +79,7 @@ function showSlide(n) {
 </script>
 
 <style>
-/* 화면 꽉 차게 만들기 */
+/* 가로 전체 너비, 세로는 적당한 높이 */
 .fullwidth-slider {
   margin: 0 !important;
   padding: 0 !important;
@@ -94,9 +94,7 @@ function showSlide(n) {
 .slider-container {
   position: relative;
   width: 100%;
-  height: 70vh;  /* 화면 높이의 70% */
-  min-height: 500px;  /* 최소 높이 */
-  max-height: 800px;  /* 최대 높이 */
+  height: 400px;  /* 고정 높이 400px */
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -143,16 +141,30 @@ function showSlide(n) {
 }
 
 .slide-content h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);  /* 반응형 폰트 */
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   font-weight: bold;
 }
 
 .slide-content p {
-  font-size: clamp(1rem, 3vw, 1.5rem);  /* 반응형 폰트 */
-  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.btn-primary {
+  background-color: #2196F3;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1976D2;
 }
 
 .slider-controls button {
@@ -162,7 +174,7 @@ function showSlide(n) {
   background: rgba(255, 255, 255, 0.3);
   color: white;
   border: none;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 0.5rem 1rem;
   cursor: pointer;
   z-index: 3;
@@ -179,7 +191,7 @@ function showSlide(n) {
 
 .slider-dots {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -187,9 +199,9 @@ function showSlide(n) {
 
 .dot {
   display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin: 0 8px;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   cursor: pointer;
@@ -198,18 +210,17 @@ function showSlide(n) {
 
 .dot.active, .dot:hover {
   background: white;
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 /* 모바일 반응형 */
 @media (max-width: 768px) {
   .slider-container {
-    height: 60vh;
-    min-height: 400px;
+    height: 300px;  /* 모바일에서는 더 낮게 */
   }
   
   .slide-content h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   
   .slide-content p {
@@ -219,6 +230,13 @@ function showSlide(n) {
   .slider-controls button {
     font-size: 2rem;
     padding: 0.3rem 0.7rem;
+  }
+}
+
+/* 큰 화면에서도 적당한 높이 유지 */
+@media (min-width: 1200px) {
+  .slider-container {
+    height: 450px;
   }
 }
 </style>
