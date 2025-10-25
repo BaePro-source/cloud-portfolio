@@ -10,7 +10,6 @@ headless: true
 weight: 10
 full widget: false
 wide: false
-active: false
 
 title: 
 subtitle: 
