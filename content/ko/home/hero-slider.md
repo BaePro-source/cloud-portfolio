@@ -15,7 +15,7 @@ design:
     <div class="slide-content">
       <h1>끊임없는 성장</h1>
       <p>DevOps와 자동화로 만드는 더 나은 내일</p>
-      <a href="/ko/contact/" class="btn btn-primary">함께하기</a>
+      <a href="/cloud-portfolio/ko/contact/" class="btn btn-primary">함께하기</a>
     </div>
   </div>
   
@@ -23,7 +23,7 @@ design:
     <div class="slide-content">
       <h1>데이터 중심의 세상</h1>
       <p>AWS와 Docker로 구축하는 효율적인 인프라</p>
-      <a href="/ko/project/" class="btn btn-primary">프로젝트 보기</a>
+      <a href="/cloud-portfolio/ko/project/" class="btn btn-primary">프로젝트 보기</a>
     </div>
   </div>
   
@@ -31,7 +31,7 @@ design:
     <div class="slide-content">
       <h1>클라우드 컴퓨팅의 미래</h1>
       <p>혁신적인 기술로 세상을 변화시키는 클라우드 여정</p>
-      <a href="/ko/about/" class="btn btn-primary">더 알아보기</a>
+      <a href="/cloud-portfolio/ko/about/" class="btn btn-primary">더 알아보기</a>
     </div>
   </div>
   
