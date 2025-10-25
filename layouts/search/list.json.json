@@ -3,8 +3,8 @@
   {{- if and .Title (not .Params.private) -}}
     {{- $permalink := .Permalink -}}
 
-    {{/* 제목이 '배재훈'인 페이지를 찾아서 링크를 변경 */}}
-    {{- if eq .Title "배재훈" -}}
+    {{/* 제목이 '배재훈' 또는 'Jaehun Bae'인 페이지를 찾아서 링크 변경 */}}
+    {{- if or (eq .Title "배재훈") (eq .Title "Jaehun Bae") -}}
       {{- $permalink = "about/" | relLangURL -}}
     {{- end -}}
 
