@@ -14,11 +14,10 @@ content:
     - title: 클라우드 컴퓨팅의 미래
       content: '혁신적인 기술로 세상을 변화시키는 클라우드 여정'
       align: center
-      background:
-        image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80'
-        image_darken: 0.5
-        image_position: center
-        text_color_light: true
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80'
+      image_darken: 0.5
+      image_position: center
+      text_color_light: true
       link:
         icon: graduation-cap
         icon_pack: fas
