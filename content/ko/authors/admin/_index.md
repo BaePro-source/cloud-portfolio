@@ -41,27 +41,27 @@ social:
   - icon: comments
     icon_pack: fas
     link: /KakaoTalk_myprofile.jpg
-    label: KakaoTalk ID
+    label: 카카오톡 아이디
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/mividaa_b/
-    label: Instagram
+    label: 인스타그램 프로필
   - icon: github
     icon_pack: fab
     link: https://github.com/BaePro-source
-    label: GitHub Main
+    label: 깃허브 메인
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/cloudjaehun/
-    label: LinkedIn Main
+    label: 링크드인 프로필
   - icon: graduation-cap
     icon_pack: fas
     link: https://ise.jbnu.ac.kr/ise/index.do
-    label: JBNU Industrial Information Systems Engineering
+    label: 전북대학교 산업정보시스템공학과
   - icon: discord
     icon_pack: fab
     link: https://discord.gg/hx8S5E9D
-    label: Discord
+    label: 디스코드 채널
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -73,8 +73,10 @@ social:
 #email: ""
 ---
 
-Jaehun Bae is a student at Jeonbuk National University located in Jeonju, South Korea, majoring in Industrial Information Systems Engineering with a double major in Computer & AI Engineering. He is interested in cloud computing, system performance optimization, and infrastructure automation, and enjoys continuously learning and applying new technologies.
+배재훈은 대한민국 전주시에 위치한 전북대학교에서 산업정보시스템공학과를 전공하고 컴퓨터인공지능학부를 복수전공하고 있습니다. 클라우드 컴퓨팅, 시스템 성능 최적화, 인프라 자동화 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 즐깁니다.
 
-Although he does not yet have experience with large-scale projects, he is building his skills in efficient system operation and management through hands-on practice with cloud environments such as AWS and Docker. His goal is to expand his expertise in data-centric cloud architecture design and the DevOps field.
+아직 대규모 프로젝트 경험은 없지만, AWS와 Docker 같은 클라우드 환경에서의 실습을 통해 효율적인 시스템 운영 및 관리 역량을 쌓아가고 있습니다. 앞으로 데이터 중심 클라우드 아키텍처 설계와 DevOps 분야로 전문성을 확장해 나가는 것이 목표입니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun Bae's Resume.
+
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}다운로드{{< /staticref >}} 배재훈 이력서.
+
