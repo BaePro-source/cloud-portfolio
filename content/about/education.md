@@ -29,18 +29,17 @@ experience:
     location: 충북 청주시 청원구 오창읍 오창중앙로 48
     date_start: '2014-03-02'
     date_end: '2015-03-01'
-    description: |
+    description: |2-
         * 축구부 활동
 
-    experience:
-    - title: 중학교 전학
-      company: 종촌중학교
-      company_url: ''
-      company_logo: org-x
-      location: 세종특별자치시 도움1로 126
-      date_start: '2015-03-02'
-      date_end: '2017-02-10'
-      description: |
+  - title: 중학교 전학
+    company: 종촌중학교
+    company_url: ''
+    company_logo: org-x
+    location: 세종특별자치시 도움1로 126
+    date_start: '2015-03-02'
+    date_end: '2017-02-10'
+    description: |2-
         * 축구부 활동
         * 탁구부 활동
 
