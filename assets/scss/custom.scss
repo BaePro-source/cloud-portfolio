@@ -119,45 +119,64 @@
   }
 }
 
+/* 로고 색상 강제 고정 - 모든 페이지/섹션에서 동일하게 */
 .navbar-brand,
 .navbar-brand .navbar-text,
-.site-logo {
-  color: #1565C0 !important;  
-  font-weight: 700 !important; 
+.site-logo,
+a.navbar-brand,
+.navbar-light .navbar-brand,
+.navbar-dark .navbar-brand,
+header .navbar-brand,
+.home-section .navbar-brand,
+.page-header .navbar-brand {
+  color: #0D47A1 !important;  /* 매우 진한 파란색 */
+  font-weight: 700 !important;
   font-size: 1.8rem !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1) !important;  
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.15) !important;
   letter-spacing: -0.5px !important;
+  opacity: 1 !important;  /* 투명도 강제 100% */
 }
 
-.navbar-brand:hover {
-  color: #0D47A1 !important;  
+/* 호버 시에도 진하게 */
+.navbar-brand:hover,
+a.navbar-brand:hover {
+  color: #01579B !important;  /* 더 진한 색 */
 }
 
-.navbar-nav {
-  margin-left: auto !important; 
+/* 다크모드에서도 동일하게 */
+[data-color-scheme="dark"] .navbar-brand,
+.dark .navbar-brand {
+  color: #42A5F5 !important;  /* 다크모드에서는 밝은 파란색 */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
 }
 
-.navbar-brand {
-  margin-right: auto !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+/* 라이트모드 강제 */
+[data-color-scheme="light"] .navbar-brand,
+.light .navbar-brand {
+  color: #0D47A1 !important;
 }
 
-.navbar .container,
-.navbar .container-fluid {
-  justify-content: space-between !important;
-  align-items: center !important;
+/* 모든 상태에서 불투명도 제거 */
+.navbar-brand * {
+  opacity: 1 !important;
 }
 
+/* 네비게이션 바 자체 배경도 고정 */
 .navbar {
-  display: flex !important;
-  visibility: visible !important;
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px) !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1) !important;
 }
 
-.page-header .navbar-brand,
-.single .navbar-brand,
-.list .navbar-brand {
-  display: block !important;
-  visibility: visible !important;
+/* 다크모드 네비게이션 */
+[data-color-scheme="dark"] .navbar {
+  background-color: rgba(31, 33, 33, 0.98) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+/* 스크롤 시에도 유지 */
+.navbar.navbar-shrink .navbar-brand,
+.navbar.scrolled .navbar-brand {
+  color: #0D47A1 !important;
 }
 
