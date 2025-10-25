@@ -1,0 +1,25 @@
+{{- $index := slice -}}
+{{- $siteLanguages := .Site.Languages -}}
+{{- range where .Site.Pages "Kind" "in" (slice "page" "section") -}}
+  {{- if and .Title (not .Params.private) -}}
+    {{- $permalink := .Permalink -}}
+    {{- $lang := .Lang -}}
+
+    {{/* 'authors' 타입이고 프로필 폴더명이 'admin'인 경우 */}}
+    {{- if and (eq .Type "authors") (eq .File.ContentBaseName "admin") -}}
+      
+      {{- $aboutURL := printf "/%s/about/" $lang -}}
+      {{/* 기본 언어(e.g., 'en')가 URL에 포함되지 않는 경우 처리 */}}
+      {{- if eq .Site.DefaultContentLanguage $lang -}}
+        {{- if not .Site.Params.uglyURLs -}}
+          {{- $aboutURL = "/about/" -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- $permalink = $aboutURL -}}
+    {{- end -}}
+
+    {{- $index = $index | append (dict "title" .Title "permalink" $permalink "summary" .Summary "content" .Plain ) -}}
+  {{- end -}}
+{{- end -}}
+{{- $index | jsonify -}}
