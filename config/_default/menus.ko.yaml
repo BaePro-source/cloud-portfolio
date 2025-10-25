@@ -9,21 +9,32 @@ main:
     url: /
     weight: 10
   - name: 자기소개
-    url: /about
+    url: about/
     weight: 20
   - name: 프로젝트
-    url: /project
+    url: project/
     weight: 30
+    identifier: projects
   - name: 기술 스택
-    url: /skill
+    url: skill/
     weight: 40
+    identifier: skills
   - name: 포트폴리오
-    url: /home/portfolio
+    url: '#'
     weight: 50
+    identifier: portfolio
+  - name: 학교 프로젝트
+    url: project/
+    weight: 51
+    parent: portfolio
+  - name: 개인 프로젝트
+    url: skill/
+    weight: 52
+    parent: portfolio
   - name: 연락처
-    url: /contact
+    url: contact/
     weight: 60
   - name: 검색
-    url: /ko/search
+    url: /search/
     weight: 70
 
