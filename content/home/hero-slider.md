@@ -79,22 +79,34 @@ function showSlide(n) {
 </script>
 
 <style>
-/* 가로 전체 너비, 세로는 적당한 높이 */
-.fullwidth-slider {
+/* 완전히 화면 전체 너비로 확장 */
+.home-section.fullwidth-slider {
   margin: 0 !important;
   padding: 0 !important;
+  max-width: 100vw !important;
+  width: 100vw !important;
+}
+
+.fullwidth-slider .container {
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.fullwidth-slider {
   width: 100vw !important;
   position: relative;
-  left: 50%;
-  right: 50%;
+  left: 50% !important;
+  right: 50% !important;
   margin-left: -50vw !important;
   margin-right: -50vw !important;
+  padding: 0 !important;
 }
 
 .slider-container {
   position: relative;
   width: 100%;
-  height: 400px;  /* 고정 높이 400px */
+  height: 500px;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -141,14 +153,14 @@ function showSlide(n) {
 }
 
 .slide-content h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   font-weight: bold;
 }
 
 .slide-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
 }
@@ -156,15 +168,19 @@ function showSlide(n) {
 .btn-primary {
   background-color: #2196F3;
   color: white;
-  padding: 0.8rem 2rem;
+  padding: 1rem 2.5rem;
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
-  transition: background 0.3s;
+  transition: all 0.3s;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.4);
 }
 
 .btn-primary:hover {
   background-color: #1976D2;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(33, 150, 243, 0.6);
 }
 
 .slider-controls button {
@@ -174,16 +190,17 @@ function showSlide(n) {
   background: rgba(255, 255, 255, 0.3);
   color: white;
   border: none;
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 0.5rem 1rem;
   cursor: pointer;
   z-index: 3;
-  transition: background 0.3s;
+  transition: all 0.3s;
   border-radius: 5px;
 }
 
 .slider-controls button:hover {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
+  transform: translateY(-50%) scale(1.1);
 }
 
 .slider-controls .prev { left: 20px; }
@@ -191,7 +208,7 @@ function showSlide(n) {
 
 .slider-dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -199,9 +216,9 @@ function showSlide(n) {
 
 .dot {
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 6px;
+  width: 14px;
+  height: 14px;
+  margin: 0 8px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   cursor: pointer;
@@ -210,21 +227,26 @@ function showSlide(n) {
 
 .dot.active, .dot:hover {
   background: white;
-  transform: scale(1.3);
+  transform: scale(1.4);
 }
 
 /* 모바일 반응형 */
 @media (max-width: 768px) {
   .slider-container {
-    height: 300px;  /* 모바일에서는 더 낮게 */
+    height: 350px;
   }
   
   .slide-content h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .slide-content p {
-    font-size: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .btn-primary {
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
   }
   
   .slider-controls button {
@@ -233,10 +255,18 @@ function showSlide(n) {
   }
 }
 
-/* 큰 화면에서도 적당한 높이 유지 */
+/* 큰 화면 */
 @media (min-width: 1200px) {
   .slider-container {
-    height: 450px;
+    height: 600px;
+  }
+  
+  .slide-content h1 {
+    font-size: 3.5rem;
+  }
+  
+  .slide-content p {
+    font-size: 1.5rem;
   }
 }
 </style>
