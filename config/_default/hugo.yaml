@@ -27,7 +27,7 @@ cascade:
 
 defaultContentLanguage: ko
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: flase
+defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
