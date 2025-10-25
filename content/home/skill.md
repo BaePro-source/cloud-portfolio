@@ -19,7 +19,7 @@ content:
     - name: Programming
       tag: programming
 design:
-  columns: '3'
-  view: card
+  columns: '1'
+  view: 3
   flip_alt_rows: false
 ---
