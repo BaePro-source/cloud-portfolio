@@ -112,3 +112,6 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+noindex: false
+enable: false
