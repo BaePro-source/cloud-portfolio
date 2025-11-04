@@ -20,6 +20,7 @@ marketing:
     org_name: '전북대학교'
     description: '클라우드 컴퓨팅과 DevOps에 관심이 많습니다.'
     twitter: 'GetResearchDev'
+    index: true
     verification:
       google: 'Io1YyMrkuozFBMhZesFNC0rIt3dpwrzU22lJtmaIUq0' 
   analytics:
