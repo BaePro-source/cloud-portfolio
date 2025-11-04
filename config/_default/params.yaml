@@ -114,4 +114,4 @@ extensions:
     enable: false
 
 noindex: false
-enable: false
+enable: true
