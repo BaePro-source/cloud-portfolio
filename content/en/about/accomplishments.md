@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Certifications & Courses'
+title: 'Certifications, Courses & Papers'
 subtitle: ''
 
 # Date format
@@ -27,27 +27,26 @@ item:
     date_end: ''
     date_start: '2025-06-01'
     description: |2-
-        Completed LangChain-based AI Agent development course by DeepLearning.AI
+        AI Agent development course based on Open Source provided by JBNU
 
-        Covered Tool Use, ReAct pattern, and Multi-Agent system design
-    organization: Coursera / DeepLearning.AI
-    organization_url: 'https://www.deeplearning.ai/'
-    title: LangChain for LLM Application Development
+        Hugging Face, Open Source LLMs, and Multi-Agent System learning
+    organization: JBNU
+    organization_url: ''
+    title: Open Source for LLM Application Development
     url: ''
   - certificate_url: ''
     date_end: ''
-    date_start: '2025-08-01'
+    date_start: '2026-04-01'
     description: |2-
-        Completed deep learning and CNN model implementation course using PyTorch
+        Multimodal deep learning model implementation using PyTorch + paper writing
 
-        Included image classification, Transfer Learning, and Grad-CAM practice
-    organization: Coursera / DeepLearning.AI
-    organization_url: 'https://www.deeplearning.ai/'
-    title: Deep Learning Specialization (CNN Track)
+    organization: JBNU MACS
+    organization_url: ''
+    title: Analyzing Multi-Modal Features for Glute Bridge Classification using Optical Flow, and Neural ODE
     url: ''
   - certificate_url: ''
     date_end: ''
-    date_start: '2026-01-01'
+    date_start: '2026-08-01'
     description: |2-
         Currently preparing for Information Processing Engineer certification
 

@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: '자격증 & 수료'
+title: '자격증 & 수료 & 논문'
 subtitle: ''
 
 # Date format
@@ -27,27 +27,26 @@ item:
     date_end: ''
     date_start: '2025-06-01'
     description: |2-
-        DeepLearning.AI 제공 LangChain 기반 AI Agent 개발 강의 수료
+        JBNU 제공 Open Source 기반 AI Agent 개발 강의
 
-        Tool Use, ReAct 패턴, 멀티 에이전트 시스템 학습
-    organization: Coursera / DeepLearning.AI
-    organization_url: 'https://www.deeplearning.ai/'
-    title: LangChain for LLM Application Development
+        Hugging face, Open source, 멀티 에이전트 시스템 학습
+    organization: JBNU
+    organization_url: ''
+    title: Open Source for LLM Application Development
     url: ''
   - certificate_url: ''
     date_end: ''
-    date_start: '2025-08-01'
+    date_start: '2026-04-01'
     description: |2-
-        PyTorch를 이용한 딥러닝 및 CNN 모델 구현 강의 수료
+        PyTorch를 이용한 딥러닝 멀티모달 모델 구현 + 논문 작성 
 
-        이미지 분류, Transfer Learning, Grad-CAM 실습 포함
-    organization: Coursera / DeepLearning.AI
-    organization_url: 'https://www.deeplearning.ai/'
-    title: Deep Learning Specialization (CNN 과정)
+    organization: JBNU MACS
+    organization_url: ''
+    title: Analyzing Multi-Modal Features for Glute Bridge Classification using Optical Flow, and Neural ODE
     url: ''
   - certificate_url: ''
     date_end: ''
-    date_start: '2026-01-01'
+    date_start: '2026-08-01'
     description: |2-
         정보처리기사 자격증 준비중
 
