@@ -16,7 +16,7 @@ title:
 subtitle: 
 content:
   # Automatically link email and phone or display as text?
-  email: cloudjaehun@gmail.com
+  email: 0701bjh@gmail.com
   phone: +82-10-6689-5928
   address:
     city: 전주시 전북대학교 공과대학 6호관
