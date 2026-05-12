@@ -1,9 +1,9 @@
 ---
 title: Python
-summary: Python programming for data analysis and backend development
+summary: The core language for AI/ML development — data processing, model implementation, and AI pipeline construction
 tags:
   - programming
-  - python
+  - ai
 date: '2021-03-10T00:00:00Z'
 
 image:
@@ -19,12 +19,12 @@ links:
 
 ## Python Programming
 
-Developing programming skills across various fields including data analysis, automation scripts, and backend development by leveraging Python's concise and intuitive syntax.
+Leveraging Python — the core language for AI/ML development — across data analysis, deep learning model implementation, and AI pipeline construction.
 
 ### Key Application Areas
-- **Data Analysis**: Data processing using Pandas and NumPy
-- **Automation**: Writing automation scripts for repetitive tasks
-- **Backend Development**: Learning Flask and Django frameworks
-- **Algorithms**: Improving problem-solving abilities
+- **Deep Learning**: Model implementation with PyTorch and TensorFlow
+- **Data Processing**: Large-scale data preprocessing with Pandas and NumPy
+- **AI Pipelines**: Using LangChain and Hugging Face Transformers
+- **Visualization**: Result analysis with Matplotlib and Seaborn
 
-My goal is to develop practical solutions through efficient and readable code.
+My goal is to write efficient and reproducible AI code for real-world applications.

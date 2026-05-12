@@ -11,7 +11,7 @@ role: Industrial and Information Systems Engineering & Computer and Artificial I
 
 # Status emoji
 status:
-  icon: ☁️
+  icon: 🤖
 
 # Organizations/Affiliations
 #organizations:
@@ -19,7 +19,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interested in programming development and cloud computing.
+bio: Interested in AI Agents, Deep Learning, and CNN-based computer vision.
 
 #interests:
 #- Artificial Intelligence
@@ -74,8 +74,8 @@ social:
 #email: ""
 ---
 
-Jaehun Bae is a student at Jeonbuk National University located in Jeonju, South Korea, majoring in Industrial Information Systems Engineering with a double major in Computer & AI Engineering. He is interested in cloud computing, system performance optimization, and infrastructure automation, and enjoys continuously learning and applying new technologies.
+Jaehun Bae is a student at Jeonbuk National University in Jeonju, South Korea, majoring in Industrial Information Systems Engineering with a double major in Computer & AI Engineering. He is passionate about Artificial Intelligence, AI Agents, and CNN-based deep learning, and enjoys continuously learning and applying cutting-edge technologies.
 
-Although he does not yet have experience with large-scale projects, he is building his skills in efficient system operation and management through hands-on practice with cloud environments such as AWS and Docker. His goal is to expand his expertise in data-centric cloud architecture design and the DevOps field.
+He is building hands-on experience with PyTorch and Python, implementing machine learning and deep learning models from scratch. His goal is to expand his expertise in LLM-based AI Agent design and CNN-powered computer vision applications.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}Download{{< /staticref >}} Jaehun Bae's Resume.

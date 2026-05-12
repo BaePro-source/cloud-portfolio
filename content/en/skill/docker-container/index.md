@@ -1,32 +1,32 @@
 ---
-title: Docker & Containers
-summary: Containerization and microservices architecture implementation using Docker
+title: Natural Language Processing (NLP)
+summary: Text classification, generation, and summarization using Transformer models and LLMs
 tags:
-  - devops
-  - docker
-date: '2025-10-10T00:00:00Z'
+  - ai
+  - deeplearning
+date: '2025-02-01T00:00:00Z'
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-OqtafYT5kTw)'
+  caption: 'Natural Language Processing'
   focal_point: Smart
   preview_only: false
-  filename: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&q=80'
+  filename: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80'
 
 links:
-  - icon: docker
+  - icon: python
     icon_pack: fab
     name: Learn More
-    url: https://www.docker.com/
+    url: https://huggingface.co/
 ---
 
-## Container-Based Development Environment
+## Natural Language Processing (NLP)
 
-Learning how to build consistent development environments using Docker and efficiently package and deploy applications.
+Performing various NLP tasks including text classification, sentiment analysis, document summarization, and question answering using Hugging Face Transformers and LLM APIs.
 
 ### Key Technologies
-- **Docker Compose**: Defining multi-container applications
-- **Image Optimization**: Creating lightweight container images
-- **Volume Management**: Ensuring data persistence
-- **Networking**: Configuring inter-container communication
+- **Transformers**: Fine-tuning BERT, GPT-series models
+- **LLM Prompting**: Few-shot and Chain-of-Thought techniques
+- **RAG**: Retrieval-augmented generation with vector databases
+- **Text Preprocessing**: Tokenization, embedding, normalization
 
-My goal is to implement more efficient deployment processes through container orchestration and CI/CD pipeline integration.
+My goal is to connect large language models to practical AI services.

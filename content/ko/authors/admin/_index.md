@@ -6,11 +6,11 @@ title: 배재훈
 superuser: true
 
 # Role/position
-role: 전북대학교 산업정보시스템공학과, 컴퓨터인공지능학부
+role: 전북대학교 산업정보시스템공학과 · 컴퓨터인공지능학부 | AI 개발자 지망생
 
 # Status emoji
 status:
-  icon: ☁️
+  icon: 🤖
 
 # Organizations/Affiliations
 #organizations:
@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Interested in programming development and cloud computing.
+bio: Interested in AI Agents, Deep Learning, and CNN-based computer vision.
 
 #interests:
 #- Artificial Intelligence
@@ -73,9 +73,9 @@ social:
 #email: ""
 ---
 
-배재훈은 대한민국 전주시에 위치한 전북대학교에서 산업정보시스템공학과를 전공하고 컴퓨터인공지능학부를 복수전공하고 있습니다. 클라우드 컴퓨팅, 시스템 성능 최적화, 인프라 자동화 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 즐깁니다.
+배재훈은 대한민국 전주시에 위치한 전북대학교에서 산업정보시스템공학과를 전공하고 컴퓨터인공지능학부를 복수전공하고 있습니다. 인공지능, AI Agent, CNN 기반 딥러닝 분야에 관심이 있으며, 끊임없이 새로운 기술을 배우고 적용하는 것을 즐깁니다.
 
-아직 대규모 프로젝트 경험은 없지만, AWS와 Docker 같은 클라우드 환경에서의 실습을 통해 효율적인 시스템 운영 및 관리 역량을 쌓아가고 있습니다. 앞으로 데이터 중심 클라우드 아키텍처 설계와 DevOps 분야로 전문성을 확장해 나가는 것이 목표입니다.
+PyTorch와 Python을 기반으로 머신러닝·딥러닝 모델을 직접 구현하고 실습하며 역량을 쌓고 있습니다. 앞으로 LLM 기반 AI Agent 설계와 CNN을 활용한 컴퓨터 비전 분야로 전문성을 확장해 나가는 것이 목표입니다.
 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/이력서.pdf" "newtab" >}}다운로드{{< /staticref >}} 배재훈 이력서.

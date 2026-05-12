@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 35
 
-title: Project
-subtitle: School Project& Personal Project
+title: Projects
+subtitle: AI Projects & Personal Projects
 
 content:
   # Page type to display. E.g. project.
@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: ALL
       tag: '*'
-    - name: "Data Analysis Projects using R"
+    - name: AI Agent
+      tag: agent
+    - name: CNN / Deep Learning
+      tag: cnn
+    - name: Data Analysis
       tag: DA
-    - name: "Data Structure Projects using C"
-      tag: DS
-    - name: "Database Projects using SQL"
-      tag: DB
 
 design:
   columns: '1'

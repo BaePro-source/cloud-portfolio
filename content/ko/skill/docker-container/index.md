@@ -1,32 +1,32 @@
 ---
-title: Docker & 컨테이너
-summary: Docker를 활용한 컨테이너화 및 마이크로서비스 아키텍처 구현
+title: 자연어 처리 (NLP)
+summary: 트랜스포머 모델과 LLM을 활용한 텍스트 분류, 생성, 요약 등 NLP 작업
 tags:
-  - devops
-  - docker
-date: '2025-10-10T00:00:00Z'
+  - ai
+  - deeplearning
+date: '2025-02-01T00:00:00Z'
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-OqtafYT5kTw)'
+  caption: 'Natural Language Processing'
   focal_point: Smart
   preview_only: false
-  filename: 'https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&q=80'
+  filename: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80'
 
 links:
-  - icon: cloud
+  - icon: python
     icon_pack: fab
     name: Learn More
-    url: https://www.docker.com/
+    url: https://huggingface.co/
 ---
 
-## 컨테이너 기반 개발 환경
+## 자연어 처리 (NLP)
 
-Docker를 사용하여 일관된 개발 환경을 구축하고, 애플리케이션을 효율적으로 패키징하고 배포하는 방법을 학습하고 있습니다.
+Hugging Face Transformers와 LLM API를 활용하여 텍스트 분류, 감성 분석, 문서 요약, 질의응답 등 다양한 NLP 작업을 수행하고 있습니다.
 
 ### 주요 기술
-- **Docker Compose**: 멀티 컨테이너 애플리케이션 정의
-- **이미지 최적화**: 경량화된 컨테이너 이미지 생성
-- **볼륨 관리**: 데이터 영속성 보장
-- **네트워킹**: 컨테이너 간 통신 구성
+- **트랜스포머**: BERT, GPT 계열 모델 파인튜닝
+- **LLM 프롬프팅**: Few-shot, Chain-of-Thought 기법 활용
+- **RAG**: 벡터 DB와 결합한 검색 증강 생성
+- **텍스트 전처리**: 토크나이징, 임베딩, 정규화
 
-컨테이너 오케스트레이션과 CI/CD 파이프라인 통합을 통해 더욱 효율적인 배포 프로세스를 구현하는 것이 목표입니다.
+대규모 언어 모델을 실용적인 AI 서비스로 연결하는 것이 목표입니다.

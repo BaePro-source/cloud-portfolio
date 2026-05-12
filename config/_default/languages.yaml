@@ -10,7 +10,7 @@ ko:
   title: BaePro Portfolio
   contentDir: content/ko
   params:
-    description: 전북대 클라우드 개발자 지망생
+    description: 전북대 AI 개발자 지망생
 
 en:
   languageCode: en
@@ -19,7 +19,7 @@ en:
   title: BaePro Portfolio
   contentDir: content/en
   params:
-    description: Aspiring Cloud Developer at Jeonbuk National University
+    description: Aspiring AI Developer at Jeonbuk National University
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 

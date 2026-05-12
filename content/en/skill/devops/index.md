@@ -1,32 +1,32 @@
 ---
-title: DevOps
-summary: Efficient development and operations through CI/CD pipeline construction and infrastructure automation
+title: Machine Learning
+summary: Implementing and evaluating supervised and unsupervised learning models with Scikit-learn and PyTorch
 tags:
-  - devops
-  - automation
-date: '2025-10-10T00:00:00Z'
+  - ai
+  - deeplearning
+date: '2025-01-01T00:00:00Z'
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/person-using-macbook-pro-on-person-s-lap-npxXWgQ33ZQ)'
+  caption: 'Machine Learning'
   focal_point: Smart
   preview_only: false
-  filename: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80'
+  filename: 'https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80'
 
 links:
-  - icon: git-alt
+  - icon: python
     icon_pack: fab
     name: Learn More
-    url: https://about.gitlab.com/topics/devops/
+    url: https://scikit-learn.org/
 ---
 
-## DevOps Culture and Practices
+## Machine Learning
 
-Learning DevOps methodologies that break down the barriers between development and operations, enabling faster and more reliable software deployment through automation and collaboration.
+Implementing various supervised and unsupervised learning algorithms with Scikit-learn and PyTorch, applying them to real-world datasets.
 
 ### Core Areas
-- **CI/CD**: Automation using GitHub Actions and Jenkins
-- **Infrastructure as Code**: Learning Terraform and Ansible
-- **Monitoring**: System performance and log analysis
-- **Collaboration Tools**: Team communication using Git and Slack
+- **Supervised Learning**: Classification and regression model implementation
+- **Unsupervised Learning**: K-Means, DBSCAN clustering
+- **Model Selection**: Cross-validation and hyperparameter tuning
+- **Feature Engineering**: Data preprocessing and feature extraction
 
-My goal is to improve development productivity through continuous improvement and feedback loops, and to achieve stable service operations.
+My goal is to discover meaningful patterns from data and maximize prediction accuracy.

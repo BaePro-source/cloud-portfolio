@@ -1,34 +1,32 @@
 ---
-title: AWS 서비스
-summary: EC2, S3, Lambda 등 다양한 AWS 클라우드 서비스를 활용한 인프라 구축과 운영 경험
+title: AI Agent
+summary: LangChain과 LLM을 활용한 자율 작업 수행 AI Agent 설계 및 구현
 tags:
-  - cloud
-  - aws
-date: '2025-10-10T00:00:00Z'
+  - ai
+  - agent
+date: '2025-03-01T00:00:00Z'
 
-# Featured image
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/turned-on-monitoring-screen-pypeCEaJeZY)'
+  caption: 'AI Agent'
   focal_point: Smart
   preview_only: false
-  filename: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80'
+  filename: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80'
 
 links:
-  - icon: aws
+  - icon: python
     icon_pack: fab
     name: Learn More
-    url: https://aws.amazon.com/
+    url: https://python.langchain.com/
 ---
 
-## AWS 클라우드 서비스 활용
+## AI Agent 개발
 
-아마존 웹 서비스(AWS)의 다양한 클라우드 솔루션을 학습하고 실습하며, 확장 가능하고 안정적인 인프라 구축 방법을 익히고 있습니다.
+LangChain 프레임워크와 OpenAI GPT 모델을 활용하여 자율적으로 판단하고 도구를 사용하는 AI Agent를 설계·구현하고 있습니다.
 
-### 주요 경험
-- **EC2**: 가상 서버 인스턴스 생성 및 관리
-- **S3**: 안전한 객체 스토리지 활용
-- **Lambda**: 서버리스 컴퓨팅 실습
-- **RDS**: 관리형 데이터베이스 운영
+### 핵심 개념
+- **ReAct (Reason + Act)**: 생각하고 행동하는 에이전트 루프 패턴
+- **Tool Use**: 검색, 코드 실행, 파일 처리 등 외부 도구 연동
+- **RAG (Retrieval-Augmented Generation)**: 벡터 DB를 활용한 지식 검색 증강
+- **Multi-Agent**: 여러 역할의 에이전트가 협력하는 파이프라인
 
-클라우드 네이티브 애플리케이션 개발과 효율적인 리소스 관리를 통해 비용 최적화된 솔루션을 구현하는 것을 목표로 하고 있습니다.
-
+효율적이고 신뢰성 높은 AI Agent 시스템을 설계하는 것을 목표로 하고 있습니다.

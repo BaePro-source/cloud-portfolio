@@ -11,26 +11,26 @@ design:
 ---
 
 <div class="slider-container">
-  <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80');">
+  <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1920&q=80');">
     <div class="slide-content">
-      <h1>Success Achieved</h1>
-      <p>Creating a better tomorrow through DevOps and automation</p>
-      <a href="/cloud-portfolio/en/contact/" class="btn btn-primary">To be together</a>
+      <h1>The Age of AI Agents</h1>
+      <p>Intelligent automation powered by LLM-based autonomous agents</p>
+      <a href="/cloud-portfolio/en/contact/" class="btn btn-primary">Get in Touch</a>
     </div>
   </div>
   
-  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80');">
+  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=1920&q=80');">
     <div class="slide-content">
-      <h1>The Future of Data-Driven</h1>
-      <p>Building efficient infrastructure with AWS and Docker</p>
-      <a href="/cloud-portfolio/en/project/" class="btn btn-primary">View Project</a>
+      <h1>Seeing the World with Deep Learning</h1>
+      <p>Image recognition and computer vision powered by CNN</p>
+      <a href="/cloud-portfolio/en/project/" class="btn btn-primary">View Projects</a>
     </div>
   </div>
   
-  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80');">
+  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&q=80');">
     <div class="slide-content">
-      <h1>The Future of Cloud Computing</h1>
-      <p>Shaping the cloud landscape with innovative technology</p>
+      <h1>The Future of Artificial Intelligence</h1>
+      <p>An AI journey transforming the world through machine learning</p>
       <a href="/cloud-portfolio/en/about/" class="btn btn-primary">Learn More</a>
     </div>
   </div>

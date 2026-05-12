@@ -4,7 +4,7 @@ headless: true
 weight: 45
 
 title: 'Core Competencies'
-subtitle: 'Cloud Computing Expertise'
+subtitle: 'Artificial Intelligence Expertise'
 
 content:
   page_type: skill
@@ -12,10 +12,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Cloud
-      tag: cloud
-    - name: DevOps
-      tag: devops
+    - name: AI/ML
+      tag: ai
+    - name: Deep Learning
+      tag: deeplearning
     - name: Programming
       tag: programming
 

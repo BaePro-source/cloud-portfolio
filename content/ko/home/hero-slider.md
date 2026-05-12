@@ -11,26 +11,26 @@ design:
 ---
 
 <div class="slider-container">
-  <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80');">
+  <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1920&q=80');">
     <div class="slide-content">
-      <h1>끊임없는 성장</h1>
-      <p>DevOps와 자동화로 만드는 더 나은 내일</p>
+      <h1>AI Agent의 시대</h1>
+      <p>LLM 기반 자율 에이전트로 만드는 지능형 자동화</p>
       <a href="/cloud-portfolio/ko/contact/" class="btn btn-primary">함께하기</a>
     </div>
   </div>
   
-  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1920&q=80');">
+  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=1920&q=80');">
     <div class="slide-content">
-      <h1>데이터 중심의 세상</h1>
-      <p>AWS와 Docker로 구축하는 효율적인 인프라</p>
+      <h1>딥러닝으로 보는 세상</h1>
+      <p>CNN으로 구현하는 컴퓨터 비전과 이미지 인식</p>
       <a href="/cloud-portfolio/ko/project/" class="btn btn-primary">프로젝트 보기</a>
     </div>
   </div>
   
-  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80');">
+  <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1920&q=80');">
     <div class="slide-content">
-      <h1>클라우드 컴퓨팅의 미래</h1>
-      <p>혁신적인 기술로 세상을 변화시키는 클라우드 여정</p>
+      <h1>인공지능의 미래</h1>
+      <p>머신러닝과 딥러닝으로 세상을 변화시키는 AI 여정</p>
       <a href="/cloud-portfolio/ko/about/" class="btn btn-primary">더 알아보기</a>
     </div>
   </div>

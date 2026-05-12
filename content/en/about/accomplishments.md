@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Certifications'
+title: 'Certifications & Courses'
 subtitle: ''
 
 # Date format
@@ -25,35 +25,32 @@ date_format: Jan 2006
 item:
   - certificate_url: ''
     date_end: ''
-    date_start: '2025-10-10'
+    date_start: '2025-06-01'
     description: |2-
-        Currently preparing for AWS certifications and other cloud and development-related certifications
-        
-        
-        To be obtained in the future
-    organization: In Preparation
-    organization_url: ''
-    title: AWS and Cloud Certifications
+        Completed LangChain-based AI Agent development course by DeepLearning.AI
+
+        Covered Tool Use, ReAct pattern, and Multi-Agent system design
+    organization: Coursera / DeepLearning.AI
+    organization_url: 'https://www.deeplearning.ai/'
+    title: LangChain for LLM Application Development
     url: ''
   - certificate_url: ''
     date_end: ''
-    date_start: '2025-10-10'
+    date_start: '2025-08-01'
     description: |2-
-        Currently preparing for SQLD (SQL Developer) database certification
-        
-        
-        To be obtained in the future
-    organization: In Preparation
-    organization_url: ''
-    title: SQLD Certification
+        Completed deep learning and CNN model implementation course using PyTorch
+
+        Included image classification, Transfer Learning, and Grad-CAM practice
+    organization: Coursera / DeepLearning.AI
+    organization_url: 'https://www.deeplearning.ai/'
+    title: Deep Learning Specialization (CNN Track)
     url: ''
   - certificate_url: ''
     date_end: ''
     date_start: '2026-01-01'
     description: |2-
         Currently preparing for Information Processing Engineer certification
-        
-        
+
         To be obtained in the future
     organization: In Preparation
     organization_url: ''

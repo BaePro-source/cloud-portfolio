@@ -4,7 +4,7 @@ headless: true
 weight: 45
 
 title: '핵심 역량'
-subtitle: '클라우드 컴퓨팅 전문 분야'
+subtitle: '인공지능 전문 분야'
 
 content:
   page_type: skill
@@ -12,10 +12,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Cloud
-      tag: cloud
-    - name: DevOps
-      tag: devops
+    - name: AI/ML
+      tag: ai
+    - name: Deep Learning
+      tag: deeplearning
     - name: Programming
       tag: programming
 design:

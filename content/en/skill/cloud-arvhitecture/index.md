@@ -1,32 +1,33 @@
 ---
-title: Cloud Architecture
-summary: Designing and building scalable and reliable cloud-based systems
+title: CNN / Deep Learning
+summary: Designing, training, and evaluating CNN models with PyTorch for computer vision tasks
 tags:
-  - cloud
-  - architecture
-date: '2025-10-10T00:00:00Z'
+  - deeplearning
+  - cnn
+  - ai
+date: '2025-05-01T00:00:00Z'
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/people-sitting-down-near-table-with-assorted-laptop-computers-QckxruozjRg)'
+  caption: 'CNN Deep Learning'
   focal_point: Smart
   preview_only: false
-  filename: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80'
+  filename: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80'
 
 links:
-  - icon: cloud
-    icon_pack: fas
+  - icon: python
+    icon_pack: fab
     name: Learn More
-    url: https://aws.amazon.com/architecture/
+    url: https://pytorch.org/
 ---
 
-## Cloud-Native Architecture Design
+## CNN-Based Deep Learning
 
-Learning to design and implement cloud-based system architectures with consideration for scalability, reliability, and security.
+Implementing Convolutional Neural Networks directly with PyTorch to solve computer vision problems such as image classification and object detection.
 
-### Key Concepts
-- **Microservices**: Service separation and independent deployment
-- **Serverless**: Event-driven architecture design
-- **High Availability**: Disaster recovery and load balancing
-- **Security**: IAM, network isolation, encryption
+### Key Skills
+- **CNN Architecture**: Designing Conv2d, BatchNorm, Pooling, Dropout layers
+- **Transfer Learning**: Fine-tuning ResNet, EfficientNet pre-trained models
+- **Data Augmentation**: Preventing overfitting with torchvision.transforms
+- **Model Interpretation**: Visualizing predictions with Grad-CAM
 
-My goal is to build data-driven scalable architectures and provide optimal cloud solutions tailored to business requirements.
+My goal is to design accurate models efficiently and apply them to real-world data.
