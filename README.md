@@ -1,95 +1,111 @@
-# 배재훈 포트폴리오 웹사이트 ☁️
+# Jaehun Bae — AI Developer Portfolio 🤖
 
-> 클라우드 컴퓨팅과 DevOps를 공부하는 전북대학교 학생의 포트폴리오 사이트입니다.
+> Personal portfolio website of a Jeonbuk National University student passionate about AI Agents, Deep Learning, and CNN-based Computer Vision.
 
-[![Deploy to GitHub Pages](https://github.com/BaePro-source/BaePro-source.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/BaePro-source/BaePro-source.github.io/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/BaePro-source/cloud-portfolio/actions/workflows/publish.yaml/badge.svg)](https://github.com/BaePro-source/cloud-portfolio/actions/workflows/publish.yaml)
 
-## 🌐 사이트 주소
+## 🌐 Live Site
 
 **https://baepro-source.github.io/cloud-portfolio/**
 
-## 👨‍💻 소개
+## 👨‍💻 About
 
-안녕하세요! 저는 **배재훈**입니다.
+Hi, I'm **Jaehun Bae**.
 
-- 🎓 **전북대학교** 산업정보시스템공학과 (주전공)
-- 💻 **전북대학교** 컴퓨터인공지능학부 (복수전공)
-- ☁️ **관심 분야**: 클라우드 컴퓨팅, DevOps, 인프라 자동화
+- 🎓 **Jeonbuk National University** — Industrial & Information Systems Engineering (Major)
+- 💻 **Jeonbuk National University** — Computer & AI Engineering (Double Major)
+- 🤖 **Interests**: AI Agents, CNN / Deep Learning, Natural Language Processing
 
-## 🛠️ 기술 스택
+## 🛠️ Tech Stack
 
-### Cloud & Infrastructure
-- **AWS** - EC2, S3, Lambda, RDS
-- **Docker** - 컨테이너화, Docker Compose
-- **DevOps** - CI/CD, GitHub Actions
+### AI / Machine Learning
+- **AI Agent** — LangChain, ReAct pattern, Tool Use, RAG, Multi-Agent systems
+- **CNN / Deep Learning** — PyTorch, Transfer Learning, Grad-CAM
+- **Machine Learning** — Scikit-learn, supervised & unsupervised learning
+- **NLP** — Hugging Face Transformers, LLM prompting, RAG
 
-### Programming Languages
-- **Python** - 데이터 분석, 자동화
-- **C** - 자료구조, 시스템 프로그래밍
-- **SQL** - 데이터베이스 관리
+### Programming
+- **Python** — PyTorch, LangChain, Pandas, NumPy, Matplotlib
+- **C** — Data structures, system programming
+- **SQL** — Database management
 
 ### Tools & Environment
-- **Git & GitHub** - 버전 관리, 협업
-- **Linux** - 서버 관리, 셸 스크립팅
+- **Git & GitHub** — Version control, collaboration
+- **Linux** — Shell scripting, server environment
 
-## 📂 주요 프로젝트
+## 📂 Projects
 
-### 1. 포트폴리오 웹사이트
-- Hugo + GitHub Pages로 구축한 개인 포트폴리오
-- 반응형 디자인 및 자동 배포 구현
-- **기술**: Hugo, HTML/CSS, JavaScript, GitHub Actions
+### 1. LLM-Based AI Agent
+Autonomous agent built with LangChain and OpenAI API that selects and executes tools independently.
+- ReAct pattern, Tool Calling, Multi-Agent pipeline
+- **Stack**: Python, LangChain, OpenAI API, ChromaDB, FastAPI
 
-### 2. 클라우드 아키텍처 학습
-- AWS 서비스를 활용한 인프라 구축 실습
-- Docker를 이용한 컨테이너 기반 개발 환경 구성
-- **기술**: AWS, Docker, Terraform
+### 2. CNN Image Classification Model
+CNN model designed from scratch using PyTorch for image classification and object detection.
+- Transfer Learning (ResNet, EfficientNet), Data Augmentation, Grad-CAM visualization
+- **Stack**: Python, PyTorch, torchvision, CUDA
 
-## 🎯 목표
+### 3. Cardiovascular Death Prediction
+Data analysis project predicting cardiovascular mortality using R.
+- **Stack**: R, statistical analysis
 
-1. **클라우드 아키텍트** - 확장 가능한 클라우드 시스템 설계
-2. **DevOps 엔지니어** - CI/CD 파이프라인 구축 및 자동화
-3. **지속적인 학습** - 최신 클라우드 기술 및 트렌드 파악
+### 4. HEARTRITHM
+Database project for ECG rhythm management.
+- **Stack**: SQL, database design
 
-## 📚 학습 활동
+## 🎯 Goals
 
-- 📖 AWS 공식 문서 학습
-- 🐳 Docker & Kubernetes 실습
-- 🔧 GitHub Actions를 활용한 자동 배포
-- 💡 오픈소스 프로젝트 기여
+1. **AI Agent Engineer** — Build reliable LLM-based autonomous agent systems
+2. **Computer Vision** — Apply CNN models to real-world image recognition tasks
+3. **AI Researcher** — Contribute to multimodal deep learning research
 
-## 📞 연락처
+## 📄 Papers & Courses
+
+- **Analyzing Multi-Modal Features for Glute Bridge Classification using Optical Flow, and Neural ODE** — JBNU MACS Lab
+- **Open Source for LLM Application Development** — JBNU
+
+## 📞 Contact
 
 - **Email**: cloudjaehun@gmail.com
 - **GitHub**: [@BaePro-source](https://github.com/BaePro-source)
 - **LinkedIn**: [cloudjaehun](https://www.linkedin.com/in/cloudjaehun/)
 - **Instagram**: [@mividaa_b](https://www.instagram.com/mividaa_b/)
 
-## 🏗️ 사이트 구조
+## 🏗️ Project Structure
 
 ```
-BaePro-source.github.io/
-├── content/           # 콘텐츠 파일
-│   ├── home/         # 메인 페이지 섹션
-│   ├── about/        # 자기소개 페이지
-│   ├── project/      # 프로젝트 페이지
-│   ├── skill/        # 기술 스택 페이지
-│   └── contact/      # 연락처 페이지
-├── config/           # 사이트 설정
-├── assets/           # CSS, 이미지 등
-├── data/            # 데이터 파일
-└── static/          # 정적 파일
+cloud-portfolio/
+├── content/
+│   ├── ko/                # Korean content
+│   │   ├── home/          # Main page sections (hero slider, intro, skills, projects)
+│   │   ├── about/         # About, education, experience, certifications
+│   │   ├── project/       # AI Agent, CNN, data analysis projects
+│   │   ├── skill/         # AI Agent, CNN, ML, NLP, Python, Git, Linux
+│   │   └── contact/       # Contact page
+│   └── en/                # English content (same structure)
+├── config/_default/       # Hugo site configuration
+├── assets/scss/           # Custom styles
+├── data/themes/           # Custom color theme
+└── static/                # Static files (resume, images)
 ```
 
-## 📝 라이선스
+## ⚙️ Built With
 
-이 프로젝트는 개인 포트폴리오 용도로 제작되었습니다.
+- **[Hugo](https://gohugo.io/)** v0.124.1 — Static site generator
+- **[HugoBlox](https://hugoblox.com/)** — Theme (Bootstrap v5)
+- **GitHub Actions** — Automated CI/CD deployment
+- **GitHub Pages** — Hosting
+
+## 📝 License
+
+This project is for personal portfolio purposes only.
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by 배재훈**
+**Built with ❤️ by Jaehun Bae**
 
-*Last updated: 2025.01*
+*Last updated: 2026.05*
 
 </div>
